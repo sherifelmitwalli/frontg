@@ -1,0 +1,5 @@
+path_id,node_sequence,edge_types,path_length,evidence_grades,max_evidence_grade,mean_evidence_grade,expected_review_priority,is_true_seeded_proxy_path
+GT_PATH_01,Funder_01 -> Intermediary_Alpha -> Proxy_X -> Campaign_Y,funds -> partners_with -> hosts,3,4 -> 3 -> 3,4,3.333,high,True
+GT_PATH_02,Funder_02 -> Intermediary_Beta -> Event_C -> Proxy_Z -> Report_Q,funds -> hosts -> speaks_at -> publishes,4,4 -> 3 -> 3 -> 3,4,3.25,high,True
+GT_PATH_03,Funder_03 -> Intermediary_Gamma -> Proxy_W -> Campaign_V,funds -> partners_with -> amplifies,3,4 -> 3 -> 2,4,3.0,high,True
+GT_PATH_04,Funder_01 -> Intermediary_Delta -> Event_D -> Report_R,funds -> hosts -> publishes,3,4 -> 3 -> 3,4,3.333,high,True

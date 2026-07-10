@@ -1,0 +1,13 @@
+path_id,node_sequence,edge_types,path_length,evidence_grades,max_evidence_grade,mean_evidence_grade,expected_review_priority,is_true_seeded_proxy_path
+GT_PATH_000,Funder_000 -> Intermediary_000 -> Proxy_000 -> Campaign_000,funds -> partners_with -> hosts,3,4 -> 3 -> 3,4,3.333,high,True
+GT_PATH_001,Funder_001 -> Intermediary_001 -> Event_001 -> Proxy_001 -> Report_001,funds -> hosts -> speaks_at -> publishes,4,4 -> 3 -> 3 -> 3,4,3.25,high,True
+GT_PATH_002,Funder_002 -> Intermediary_002 -> Proxy_002 -> Campaign_002,funds -> partners_with -> amplifies,3,4 -> 3 -> 2,4,3.0,high,True
+GT_PATH_003,Funder_003 -> Intermediary_003 -> Event_003 -> Report_003,funds -> hosts -> publishes,3,4 -> 3 -> 3,4,3.333,high,True
+GT_PATH_004,Funder_004 -> Intermediary_004 -> Proxy_004 -> Campaign_004,funds -> partners_with -> hosts,3,4 -> 3 -> 3,4,3.333,high,True
+GT_PATH_005,Funder_005 -> Intermediary_005 -> Event_005 -> Proxy_005 -> Report_005,funds -> hosts -> speaks_at -> publishes,4,4 -> 3 -> 3 -> 3,4,3.25,high,True
+GT_PATH_006,Funder_006 -> Intermediary_006 -> Proxy_006 -> Campaign_006,funds -> partners_with -> amplifies,3,4 -> 3 -> 2,4,3.0,high,True
+GT_PATH_007,Funder_007 -> Intermediary_007 -> Event_007 -> Report_007,funds -> hosts -> publishes,3,4 -> 3 -> 3,4,3.333,high,True
+GT_PATH_008,Funder_008 -> Intermediary_008 -> Proxy_008 -> Campaign_008,funds -> partners_with -> hosts,3,4 -> 3 -> 3,4,3.333,high,True
+GT_PATH_009,Funder_009 -> Intermediary_009 -> Event_009 -> Proxy_009 -> Report_009,funds -> hosts -> speaks_at -> publishes,4,4 -> 3 -> 3 -> 3,4,3.25,high,True
+GT_PATH_010,Funder_010 -> Intermediary_010 -> Proxy_010 -> Campaign_010,funds -> partners_with -> amplifies,3,4 -> 3 -> 2,4,3.0,high,True
+GT_PATH_011,Funder_011 -> Intermediary_011 -> Event_011 -> Report_011,funds -> hosts -> publishes,3,4 -> 3 -> 3,4,3.333,high,True

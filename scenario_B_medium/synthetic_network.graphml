@@ -1,0 +1,4636 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="is_active_noise" attr.type="boolean"/>
+<key id="d12" for="edge" attr.name="is_negative_control" attr.type="boolean"/>
+<key id="d11" for="edge" attr.name="is_distractor" attr.type="boolean"/>
+<key id="d10" for="edge" attr.name="is_ground_truth" attr.type="boolean"/>
+<key id="d9" for="edge" attr.name="phase" attr.type="string"/>
+<key id="d8" for="edge" attr.name="evidence_grade" attr.type="long"/>
+<key id="d7" for="edge" attr.name="evidence_snippet" attr.type="string"/>
+<key id="d6" for="edge" attr.name="edge_type" attr.type="string"/>
+<key id="d5" for="node" attr.name="is_independent_control" attr.type="boolean"/>
+<key id="d4" for="node" attr.name="surface_form" attr.type="string"/>
+<key id="d3" for="node" attr.name="canonical_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="node_class" attr.type="string"/>
+<key id="d1" for="graph" attr.name="seed" attr.type="long"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">synthetic_network_medium</data>
+<data key="d1">142</data>
+<node id="Funder_000">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_000</data>
+  <data key="d4">Funder_000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_000">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_000</data>
+  <data key="d4">Intermediary_000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_000">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_000</data>
+  <data key="d4">Proxy_000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_000">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_000</data>
+  <data key="d4">Campaign_000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_001">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_001</data>
+  <data key="d4">Funder_001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_001">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_001</data>
+  <data key="d4">Intermediary_001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_001">
+  <data key="d2">Event</data>
+  <data key="d3">Event_001</data>
+  <data key="d4">Event_001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_001">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_001</data>
+  <data key="d4">Proxy_001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_001">
+  <data key="d2">Report</data>
+  <data key="d3">Report_001</data>
+  <data key="d4">Report_001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_002">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_002</data>
+  <data key="d4">Funder_002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_002">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_002</data>
+  <data key="d4">Intermediary_002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_002">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_002</data>
+  <data key="d4">Proxy_002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_002">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_002</data>
+  <data key="d4">Campaign_002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_003">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_003</data>
+  <data key="d4">Funder_003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_003">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_003</data>
+  <data key="d4">Intermediary_003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_003">
+  <data key="d2">Event</data>
+  <data key="d3">Event_003</data>
+  <data key="d4">Event_003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_003">
+  <data key="d2">Report</data>
+  <data key="d3">Report_003</data>
+  <data key="d4">Report_003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_004">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_004</data>
+  <data key="d4">Funder_004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_004">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_004</data>
+  <data key="d4">Intermediary_004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_004">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_004</data>
+  <data key="d4">Proxy_004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_004">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_004</data>
+  <data key="d4">Campaign_004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_005">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_005</data>
+  <data key="d4">Funder_005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_005">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_005</data>
+  <data key="d4">Intermediary_005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_005">
+  <data key="d2">Event</data>
+  <data key="d3">Event_005</data>
+  <data key="d4">Event_005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_005">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_005</data>
+  <data key="d4">Proxy_005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_005">
+  <data key="d2">Report</data>
+  <data key="d3">Report_005</data>
+  <data key="d4">Report_005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_006">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_006</data>
+  <data key="d4">Funder_006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_006">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_006</data>
+  <data key="d4">Intermediary_006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_006">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_006</data>
+  <data key="d4">Proxy_006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_006">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_006</data>
+  <data key="d4">Campaign_006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_007">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_007</data>
+  <data key="d4">Funder_007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_007">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_007</data>
+  <data key="d4">Intermediary_007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_007">
+  <data key="d2">Event</data>
+  <data key="d3">Event_007</data>
+  <data key="d4">Event_007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_007">
+  <data key="d2">Report</data>
+  <data key="d3">Report_007</data>
+  <data key="d4">Report_007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_008">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_008</data>
+  <data key="d4">Funder_008</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_008">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_008</data>
+  <data key="d4">Intermediary_008</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_008">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_008</data>
+  <data key="d4">Proxy_008</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_008">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_008</data>
+  <data key="d4">Campaign_008</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_009">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_009</data>
+  <data key="d4">Funder_009</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_009">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_009</data>
+  <data key="d4">Intermediary_009</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_009">
+  <data key="d2">Event</data>
+  <data key="d3">Event_009</data>
+  <data key="d4">Event_009</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_009">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_009</data>
+  <data key="d4">Proxy_009</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_009">
+  <data key="d2">Report</data>
+  <data key="d3">Report_009</data>
+  <data key="d4">Report_009</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_010">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_010</data>
+  <data key="d4">Funder_010</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_010">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_010</data>
+  <data key="d4">Intermediary_010</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_010">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_010</data>
+  <data key="d4">Proxy_010</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_010">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_010</data>
+  <data key="d4">Campaign_010</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_011">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_011</data>
+  <data key="d4">Funder_011</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_011">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_011</data>
+  <data key="d4">Intermediary_011</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_011">
+  <data key="d2">Event</data>
+  <data key="d3">Event_011</data>
+  <data key="d4">Event_011</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_011">
+  <data key="d2">Report</data>
+  <data key="d3">Report_011</data>
+  <data key="d4">Report_011</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L000">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L000</data>
+  <data key="d4">Funder_L000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L000">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L000</data>
+  <data key="d4">Intermediary_L000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_L000">
+  <data key="d2">Report</data>
+  <data key="d3">Report_L000</data>
+  <data key="d4">Report_L000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L001">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L001</data>
+  <data key="d4">Funder_L001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L001">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L001</data>
+  <data key="d4">Intermediary_L001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_L001">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_L001</data>
+  <data key="d4">Proxy_L001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_L001">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_L001</data>
+  <data key="d4">Campaign_L001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L002">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L002</data>
+  <data key="d4">Funder_L002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L002">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L002</data>
+  <data key="d4">Intermediary_L002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_L002">
+  <data key="d2">Report</data>
+  <data key="d3">Report_L002</data>
+  <data key="d4">Report_L002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L003">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L003</data>
+  <data key="d4">Funder_L003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L003">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L003</data>
+  <data key="d4">Intermediary_L003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_L003">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_L003</data>
+  <data key="d4">Proxy_L003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_L003">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_L003</data>
+  <data key="d4">Campaign_L003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L004">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L004</data>
+  <data key="d4">Funder_L004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L004">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L004</data>
+  <data key="d4">Intermediary_L004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_L004">
+  <data key="d2">Report</data>
+  <data key="d3">Report_L004</data>
+  <data key="d4">Report_L004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L005">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L005</data>
+  <data key="d4">Funder_L005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L005">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L005</data>
+  <data key="d4">Intermediary_L005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_L005">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_L005</data>
+  <data key="d4">Proxy_L005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_L005">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_L005</data>
+  <data key="d4">Campaign_L005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L006">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L006</data>
+  <data key="d4">Funder_L006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L006">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L006</data>
+  <data key="d4">Intermediary_L006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_L006">
+  <data key="d2">Report</data>
+  <data key="d3">Report_L006</data>
+  <data key="d4">Report_L006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_L007">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_L007</data>
+  <data key="d4">Funder_L007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_L007">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_L007</data>
+  <data key="d4">Intermediary_L007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_L007">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_L007</data>
+  <data key="d4">Proxy_L007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_L007">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_L007</data>
+  <data key="d4">Campaign_L007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Health_Alliance_Alpha">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_000_A</data>
+  <data key="d4">Health_Alliance_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Health_Alliance_Beta">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_000_B</data>
+  <data key="d4">Health_Alliance_Beta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Public_Choice_Branch">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_001_A</data>
+  <data key="d4">Public_Choice_Branch</data>
+  <data key="d5">False</data>
+</node>
+<node id="Public_Choice_Branches">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_001_B</data>
+  <data key="d4">Public_Choice_Branches</data>
+  <data key="d5">False</data>
+</node>
+<node id="Civic_Forum_Alpha">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_002_A</data>
+  <data key="d4">Civic_Forum_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Civic_Forum_Beta">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_002_B</data>
+  <data key="d4">Civic_Forum_Beta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Policy_Council_Branch">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_003_A</data>
+  <data key="d4">Policy_Council_Branch</data>
+  <data key="d5">False</data>
+</node>
+<node id="Policy_Council_Branches">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_003_B</data>
+  <data key="d4">Policy_Council_Branches</data>
+  <data key="d5">False</data>
+</node>
+<node id="Wellness_League_Alpha">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_004_A</data>
+  <data key="d4">Wellness_League_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Wellness_League_Beta">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_004_B</data>
+  <data key="d4">Wellness_League_Beta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Reform_Circle_Branch">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_005_A</data>
+  <data key="d4">Reform_Circle_Branch</data>
+  <data key="d5">False</data>
+</node>
+<node id="Reform_Circle_Branches">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_005_B</data>
+  <data key="d4">Reform_Circle_Branches</data>
+  <data key="d5">False</data>
+</node>
+<node id="Liberty_Board_Alpha">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_006_A</data>
+  <data key="d4">Liberty_Board_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Liberty_Board_Beta">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_006_B</data>
+  <data key="d4">Liberty_Board_Beta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Standards_Coalition_Branch">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_007_A</data>
+  <data key="d4">Standards_Coalition_Branch</data>
+  <data key="d5">False</data>
+</node>
+<node id="Standards_Coalition_Branches">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_007_B</data>
+  <data key="d4">Standards_Coalition_Branches</data>
+  <data key="d5">False</data>
+</node>
+<node id="Data_Institute_Alpha">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_008_A</data>
+  <data key="d4">Data_Institute_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Data_Institute_Beta">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_008_B</data>
+  <data key="d4">Data_Institute_Beta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Citizen_Trust_Branch">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_009_A</data>
+  <data key="d4">Citizen_Trust_Branch</data>
+  <data key="d5">False</data>
+</node>
+<node id="Citizen_Trust_Branches">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_FF_009_B</data>
+  <data key="d4">Citizen_Trust_Branches</data>
+  <data key="d5">False</data>
+</node>
+<node id="Research_Society_Gamma">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_ALIAS_000</data>
+  <data key="d4">Research_Society_Gamma</data>
+  <data key="d5">False</data>
+</node>
+<node id="Research_Society_Gamma_Group">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_ALIAS_000</data>
+  <data key="d4">Research_Society_Gamma_Group</data>
+  <data key="d5">False</data>
+</node>
+<node id="Gamma_Research_Network">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_ALIAS_000</data>
+  <data key="d4">Gamma_Research_Network</data>
+  <data key="d5">False</data>
+</node>
+<node id="Market_Union_Delta">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_ALIAS_001</data>
+  <data key="d4">Market_Union_Delta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Market_Union_Delta_Group">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_ALIAS_001</data>
+  <data key="d4">Market_Union_Delta_Group</data>
+  <data key="d5">False</data>
+</node>
+<node id="Consumer_Partnership_Sigma">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_ALIAS_002</data>
+  <data key="d4">Consumer_Partnership_Sigma</data>
+  <data key="d5">False</data>
+</node>
+<node id="Consumer_Partnership_Sigma_Group">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_ALIAS_002</data>
+  <data key="d4">Consumer_Partnership_Sigma_Group</data>
+  <data key="d5">False</data>
+</node>
+<node id="Global_Assembly_Omega">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_ALIAS_003</data>
+  <data key="d4">Global_Assembly_Omega</data>
+  <data key="d5">False</data>
+</node>
+<node id="Global_Assembly_Omega_Group">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_ALIAS_003</data>
+  <data key="d4">Global_Assembly_Omega_Group</data>
+  <data key="d5">False</data>
+</node>
+<node id="Regional_Foundation_Theta">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_ALIAS_004</data>
+  <data key="d4">Regional_Foundation_Theta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Regional_Foundation_Theta_Group">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_ALIAS_004</data>
+  <data key="d4">Regional_Foundation_Theta_Group</data>
+  <data key="d5">False</data>
+</node>
+<node id="National_Choice_Lambda">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_ALIAS_005</data>
+  <data key="d4">National_Choice_Lambda</data>
+  <data key="d5">False</data>
+</node>
+<node id="National_Choice_Lambda_Group">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_ALIAS_005</data>
+  <data key="d4">National_Choice_Lambda_Group</data>
+  <data key="d5">False</data>
+</node>
+<node id="IndependentControl_000">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_000</data>
+  <data key="d4">IndependentControl_000</data>
+  <data key="d5">True</data>
+</node>
+<node id="Event_Ind_000">
+  <data key="d2">Event</data>
+  <data key="d3">Event_Ind_000</data>
+  <data key="d4">Event_Ind_000</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_001">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_001</data>
+  <data key="d4">IndependentControl_001</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_Ind_001">
+  <data key="d2">Report</data>
+  <data key="d3">Report_Ind_001</data>
+  <data key="d4">Report_Ind_001</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_002">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_002</data>
+  <data key="d4">IndependentControl_002</data>
+  <data key="d5">True</data>
+</node>
+<node id="SocialAccount_Ind_002">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_Ind_002</data>
+  <data key="d4">SocialAccount_Ind_002</data>
+  <data key="d5">True</data>
+</node>
+<node id="MediaOutlet_Ind_002">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_Ind_002</data>
+  <data key="d4">MediaOutlet_Ind_002</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_003">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_003</data>
+  <data key="d4">IndependentControl_003</data>
+  <data key="d5">True</data>
+</node>
+<node id="Event_Ind_003">
+  <data key="d2">Event</data>
+  <data key="d3">Event_Ind_003</data>
+  <data key="d4">Event_Ind_003</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_004">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_004</data>
+  <data key="d4">IndependentControl_004</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_Ind_004">
+  <data key="d2">Report</data>
+  <data key="d3">Report_Ind_004</data>
+  <data key="d4">Report_Ind_004</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_005">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_005</data>
+  <data key="d4">IndependentControl_005</data>
+  <data key="d5">True</data>
+</node>
+<node id="SocialAccount_Ind_005">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_Ind_005</data>
+  <data key="d4">SocialAccount_Ind_005</data>
+  <data key="d5">True</data>
+</node>
+<node id="MediaOutlet_Ind_005">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_Ind_005</data>
+  <data key="d4">MediaOutlet_Ind_005</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_006">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_006</data>
+  <data key="d4">IndependentControl_006</data>
+  <data key="d5">True</data>
+</node>
+<node id="Event_Ind_006">
+  <data key="d2">Event</data>
+  <data key="d3">Event_Ind_006</data>
+  <data key="d4">Event_Ind_006</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_007">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_007</data>
+  <data key="d4">IndependentControl_007</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_Ind_007">
+  <data key="d2">Report</data>
+  <data key="d3">Report_Ind_007</data>
+  <data key="d4">Report_Ind_007</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_008">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_008</data>
+  <data key="d4">IndependentControl_008</data>
+  <data key="d5">True</data>
+</node>
+<node id="SocialAccount_Ind_008">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_Ind_008</data>
+  <data key="d4">SocialAccount_Ind_008</data>
+  <data key="d5">True</data>
+</node>
+<node id="MediaOutlet_Ind_008">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_Ind_008</data>
+  <data key="d4">MediaOutlet_Ind_008</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_009">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_009</data>
+  <data key="d4">IndependentControl_009</data>
+  <data key="d5">True</data>
+</node>
+<node id="Event_Ind_009">
+  <data key="d2">Event</data>
+  <data key="d3">Event_Ind_009</data>
+  <data key="d4">Event_Ind_009</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_010">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_010</data>
+  <data key="d4">IndependentControl_010</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_Ind_010">
+  <data key="d2">Report</data>
+  <data key="d3">Report_Ind_010</data>
+  <data key="d4">Report_Ind_010</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_011">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_011</data>
+  <data key="d4">IndependentControl_011</data>
+  <data key="d5">True</data>
+</node>
+<node id="SocialAccount_Ind_011">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_Ind_011</data>
+  <data key="d4">SocialAccount_Ind_011</data>
+  <data key="d5">True</data>
+</node>
+<node id="MediaOutlet_Ind_011">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_Ind_011</data>
+  <data key="d4">MediaOutlet_Ind_011</data>
+  <data key="d5">True</data>
+</node>
+<node id="EmbeddedControl_01">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_01</data>
+  <data key="d4">EmbeddedControl_01</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_EC01">
+  <data key="d2">Report</data>
+  <data key="d3">Report_EC01</data>
+  <data key="d4">Report_EC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="EmbeddedControl_02">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_02</data>
+  <data key="d4">EmbeddedControl_02</data>
+  <data key="d5">True</data>
+</node>
+<node id="Campaign_EC02">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_EC02</data>
+  <data key="d4">Campaign_EC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="EmbeddedControl_03">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_03</data>
+  <data key="d4">EmbeddedControl_03</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_EC03">
+  <data key="d2">Report</data>
+  <data key="d3">Report_EC03</data>
+  <data key="d4">Report_EC03</data>
+  <data key="d5">False</data>
+</node>
+<node id="EmbeddedControl_04">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_04</data>
+  <data key="d4">EmbeddedControl_04</data>
+  <data key="d5">True</data>
+</node>
+<node id="Campaign_EC04">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_EC04</data>
+  <data key="d4">Campaign_EC04</data>
+  <data key="d5">False</data>
+</node>
+<node id="EmbeddedControl_05">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_05</data>
+  <data key="d4">EmbeddedControl_05</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_EC05">
+  <data key="d2">Report</data>
+  <data key="d3">Report_EC05</data>
+  <data key="d4">Report_EC05</data>
+  <data key="d5">False</data>
+</node>
+<node id="EmbeddedControl_06">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_06</data>
+  <data key="d4">EmbeddedControl_06</data>
+  <data key="d5">True</data>
+</node>
+<node id="Campaign_EC06">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_EC06</data>
+  <data key="d4">Campaign_EC06</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W01">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W01</data>
+  <data key="d4">Funder_W01</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC01">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC01</data>
+  <data key="d4">SocialAccount_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC01">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC01</data>
+  <data key="d4">MediaOutlet_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_WC01">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_WC01</data>
+  <data key="d4">Proxy_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_WC01">
+  <data key="d2">Report</data>
+  <data key="d3">Report_WC01</data>
+  <data key="d4">Report_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W02">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W02</data>
+  <data key="d4">Funder_W02</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC02">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC02</data>
+  <data key="d4">SocialAccount_WC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC02">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC02</data>
+  <data key="d4">MediaOutlet_WC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_WC02">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_WC02</data>
+  <data key="d4">Campaign_WC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W03">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W03</data>
+  <data key="d4">Funder_W03</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC03">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC03</data>
+  <data key="d4">SocialAccount_WC03</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC03">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC03</data>
+  <data key="d4">MediaOutlet_WC03</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_WC03">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_WC03</data>
+  <data key="d4">Proxy_WC03</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_WC03">
+  <data key="d2">Report</data>
+  <data key="d3">Report_WC03</data>
+  <data key="d4">Report_WC03</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W04">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W04</data>
+  <data key="d4">Funder_W04</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC04">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC04</data>
+  <data key="d4">SocialAccount_WC04</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC04">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC04</data>
+  <data key="d4">MediaOutlet_WC04</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_WC04">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_WC04</data>
+  <data key="d4">Campaign_WC04</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W05">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W05</data>
+  <data key="d4">Funder_W05</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC05">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC05</data>
+  <data key="d4">SocialAccount_WC05</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC05">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC05</data>
+  <data key="d4">MediaOutlet_WC05</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_WC05">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_WC05</data>
+  <data key="d4">Proxy_WC05</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_WC05">
+  <data key="d2">Report</data>
+  <data key="d3">Report_WC05</data>
+  <data key="d4">Report_WC05</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W06">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W06</data>
+  <data key="d4">Funder_W06</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC06">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC06</data>
+  <data key="d4">SocialAccount_WC06</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC06">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC06</data>
+  <data key="d4">MediaOutlet_WC06</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_WC06">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_WC06</data>
+  <data key="d4">Campaign_WC06</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Med_000">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">Noise_Med_000</data>
+  <data key="d4">Noise_Med_000</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Soc_001">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">Noise_Soc_001</data>
+  <data key="d4">Noise_Soc_001</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Rep_002">
+  <data key="d2">Report</data>
+  <data key="d3">Noise_Rep_002</data>
+  <data key="d4">Noise_Rep_002</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Eve_003">
+  <data key="d2">Event</data>
+  <data key="d3">Noise_Eve_003</data>
+  <data key="d4">Noise_Eve_003</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Med_004">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">Noise_Med_004</data>
+  <data key="d4">Noise_Med_004</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Soc_005">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">Noise_Soc_005</data>
+  <data key="d4">Noise_Soc_005</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Rep_006">
+  <data key="d2">Report</data>
+  <data key="d3">Noise_Rep_006</data>
+  <data key="d4">Noise_Rep_006</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Eve_007">
+  <data key="d2">Event</data>
+  <data key="d3">Noise_Eve_007</data>
+  <data key="d4">Noise_Eve_007</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Med_008">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">Noise_Med_008</data>
+  <data key="d4">Noise_Med_008</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Soc_009">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">Noise_Soc_009</data>
+  <data key="d4">Noise_Soc_009</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Rep_010">
+  <data key="d2">Report</data>
+  <data key="d3">Noise_Rep_010</data>
+  <data key="d4">Noise_Rep_010</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Eve_011">
+  <data key="d2">Event</data>
+  <data key="d3">Noise_Eve_011</data>
+  <data key="d4">Noise_Eve_011</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Med_012">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">Noise_Med_012</data>
+  <data key="d4">Noise_Med_012</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Soc_013">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">Noise_Soc_013</data>
+  <data key="d4">Noise_Soc_013</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Rep_014">
+  <data key="d2">Report</data>
+  <data key="d3">Noise_Rep_014</data>
+  <data key="d4">Noise_Rep_014</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Eve_015">
+  <data key="d2">Event</data>
+  <data key="d3">Noise_Eve_015</data>
+  <data key="d4">Noise_Eve_015</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Med_016">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">Noise_Med_016</data>
+  <data key="d4">Noise_Med_016</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Soc_017">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">Noise_Soc_017</data>
+  <data key="d4">Noise_Soc_017</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Rep_018">
+  <data key="d2">Report</data>
+  <data key="d3">Noise_Rep_018</data>
+  <data key="d4">Noise_Rep_018</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Eve_019">
+  <data key="d2">Event</data>
+  <data key="d3">Noise_Eve_019</data>
+  <data key="d4">Noise_Eve_019</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Med_020">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">Noise_Med_020</data>
+  <data key="d4">Noise_Med_020</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Soc_021">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">Noise_Soc_021</data>
+  <data key="d4">Noise_Soc_021</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Rep_022">
+  <data key="d2">Report</data>
+  <data key="d3">Noise_Rep_022</data>
+  <data key="d4">Noise_Rep_022</data>
+  <data key="d5">False</data>
+</node>
+<node id="Noise_Eve_023">
+  <data key="d2">Event</data>
+  <data key="d3">Noise_Eve_023</data>
+  <data key="d4">Noise_Eve_023</data>
+  <data key="d5">False</data>
+</node>
+<edge source="Funder_000" target="Intermediary_000" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_000 is listed as providing funding to Intermediary_000 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_000" target="Proxy_000" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_000 is described as a partner of Proxy_000 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_000" target="EmbeddedControl_01" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_000 and EmbeddedControl_01 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_000" target="Campaign_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_000 and Campaign_002 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_000" target="Campaign_006" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_000 and Campaign_006 shared the same abstract link during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_000" target="Campaign_010" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Intermediary_000 used wording closely similar to Campaign_010 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_000" target="Campaign_EC04" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Intermediary_000 repeatedly amplified output attributed to Campaign_EC04 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_000" target="Campaign_L005" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_000 is described as a partner of Campaign_L005 during Phase_04.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_000" target="Proxy_001" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_000 and Proxy_001 shared the same abstract link during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Proxy_000" target="Campaign_000" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Proxy_000 is listed as a host of Campaign_000 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_001" target="Intermediary_001" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_001 is listed as providing funding to Intermediary_001 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_001" target="Event_001" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_001 is listed as a host of Event_001 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_001" target="EmbeddedControl_02" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_001 and EmbeddedControl_02 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_001" target="Campaign_004" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_001 and Campaign_004 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_001" target="Campaign_008" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_001 and Campaign_008 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_001" target="Campaign_EC02" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Intermediary_001 used wording closely similar to Campaign_EC02 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_001" target="Campaign_EC06" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Intermediary_001 repeatedly amplified output attributed to Campaign_EC06 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_001" target="Campaign_L007" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_001 is described as a partner of Campaign_L007 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_001" target="Proxy_002" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_001 and Proxy_002 shared the same abstract link during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Event_001" target="Proxy_001" id="0">
+  <data key="d6">speaks_at</data>
+  <data key="d7">Synthetic record: a representative of Event_001 is listed as speaking at Proxy_001 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_001" target="Report_001" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Proxy_001 is listed as the publisher of Report_001 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_002" target="Intermediary_002" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_002" target="Proxy_002" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_002 is described as a partner of Proxy_002 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_002" target="EmbeddedControl_03" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_002 and EmbeddedControl_03 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_002" target="Campaign_006" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_002 and Campaign_006 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_002" target="Campaign_010" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_002 and Campaign_010 shared the same abstract link during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_002" target="Campaign_EC04" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Intermediary_002 used wording closely similar to Campaign_EC04 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_002" target="Campaign_L001" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Intermediary_002 repeatedly amplified output attributed to Campaign_L001 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_002" target="Campaign_WC02" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_002 is described as a partner of Campaign_WC02 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_002" target="Proxy_004" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_002 and Proxy_004 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Proxy_002" target="Campaign_002" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Proxy_002 repeatedly amplified output attributed to Campaign_002 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_003" target="Intermediary_003" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_003 is listed as providing funding to Intermediary_003 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_003" target="Event_003" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_003 is listed as a host of Event_003 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_003" target="EmbeddedControl_04" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_003 and EmbeddedControl_04 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_003" target="Campaign_008" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_003 and Campaign_008 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_003" target="Campaign_EC02" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_003 and Campaign_EC02 shared the same abstract link during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_003" target="Campaign_WC04" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_003 is described as a partner of Campaign_WC04 during Phase_03.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Intermediary_003" target="Proxy_005" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Intermediary_003 and Proxy_005 shared the same abstract link during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+</edge>
+<edge source="Event_003" target="Report_003" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Event_003 is listed as the publisher of Report_003 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_004" target="Intermediary_004" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_004 is listed as providing funding to Intermediary_004 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_004" target="Proxy_004" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_004 is described as a partner of Proxy_004 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_004" target="EmbeddedControl_05" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_004 and EmbeddedControl_05 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_004" target="Campaign_004" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Proxy_004 is listed as a host of Campaign_004 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_005" target="Intermediary_005" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_005 is listed as providing funding to Intermediary_005 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_005" target="Event_005" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_005 is listed as a host of Event_005 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_005" target="EmbeddedControl_06" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_005 and EmbeddedControl_06 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_005" target="Proxy_005" id="0">
+  <data key="d6">speaks_at</data>
+  <data key="d7">Synthetic record: a representative of Event_005 is listed as speaking at Proxy_005 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_005" target="Report_005" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Proxy_005 is listed as the publisher of Report_005 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_006" target="Intermediary_006" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_006 is listed as providing funding to Intermediary_006 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_006" target="Proxy_006" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_006 is described as a partner of Proxy_006 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_006" target="Campaign_006" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Proxy_006 repeatedly amplified output attributed to Campaign_006 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_007" target="Intermediary_007" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_007 is listed as providing funding to Intermediary_007 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_007" target="Event_007" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_007 is listed as a host of Event_007 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_007" target="Report_007" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Event_007 is listed as the publisher of Report_007 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_008" target="Intermediary_008" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_008 is listed as providing funding to Intermediary_008 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_008" target="Proxy_008" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_008 is described as a partner of Proxy_008 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_008" target="Campaign_008" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Proxy_008 is listed as a host of Campaign_008 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_009" target="Intermediary_009" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_009 is listed as providing funding to Intermediary_009 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_009" target="Event_009" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_009 is listed as a host of Event_009 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_009" target="Proxy_009" id="0">
+  <data key="d6">speaks_at</data>
+  <data key="d7">Synthetic record: a representative of Event_009 is listed as speaking at Proxy_009 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_009" target="Report_009" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Proxy_009 is listed as the publisher of Report_009 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_010" target="Intermediary_010" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_010 is listed as providing funding to Intermediary_010 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_010" target="Proxy_010" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_010 is described as a partner of Proxy_010 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_010" target="Campaign_010" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Proxy_010 repeatedly amplified output attributed to Campaign_010 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_011" target="Intermediary_011" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_011 is listed as providing funding to Intermediary_011 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_011" target="Event_011" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_011 is listed as a host of Event_011 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_011" target="Report_011" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Event_011 is listed as the publisher of Report_011 during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L000" target="Intermediary_L000" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L000 is listed as providing funding to Intermediary_L000 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L000" target="Report_L000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_L000 and Report_L000 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L001" target="Intermediary_L001" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L001 is listed as providing funding to Intermediary_L001 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L001" target="Proxy_L001" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_L001 is described as a partner of Proxy_L001 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_L001" target="Campaign_L001" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Proxy_L001 and Campaign_L001 shared the same abstract link during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L002" target="Intermediary_L002" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L002 is listed as providing funding to Intermediary_L002 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L002" target="Report_L002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_L002 and Report_L002 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L003" target="Intermediary_L003" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L003 is listed as providing funding to Intermediary_L003 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L003" target="Proxy_L003" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_L003 is described as a partner of Proxy_L003 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_L003" target="Campaign_L003" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Proxy_L003 and Campaign_L003 shared the same abstract link during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L004" target="Intermediary_L004" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L004 is listed as providing funding to Intermediary_L004 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L004" target="Report_L004" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_L004 and Report_L004 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L005" target="Intermediary_L005" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L005 is listed as providing funding to Intermediary_L005 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L005" target="Proxy_L005" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_L005 is described as a partner of Proxy_L005 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_L005" target="Campaign_L005" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Proxy_L005 and Campaign_L005 shared the same abstract link during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L006" target="Intermediary_L006" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L006 is listed as providing funding to Intermediary_L006 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L006" target="Report_L006" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_L006 and Report_L006 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_L007" target="Intermediary_L007" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_L007 is listed as providing funding to Intermediary_L007 during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_L007" target="Proxy_L007" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_L007 is described as a partner of Proxy_L007 during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_L007" target="Campaign_L007" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Proxy_L007 and Campaign_L007 shared the same abstract link during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_000" target="Event_Ind_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: IndependentControl_000 and Event_Ind_000 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_001" target="Report_Ind_001" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_001 and Report_Ind_001.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_002" target="SocialAccount_Ind_002" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_002 and SocialAccount_Ind_002.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Ind_002" target="MediaOutlet_Ind_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: SocialAccount_Ind_002 and MediaOutlet_Ind_002 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_003" target="Event_Ind_003" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: IndependentControl_003 and Event_Ind_003 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_004" target="Report_Ind_004" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_004 and Report_Ind_004.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_005" target="SocialAccount_Ind_005" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_005 and SocialAccount_Ind_005.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Ind_005" target="MediaOutlet_Ind_005" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: SocialAccount_Ind_005 and MediaOutlet_Ind_005 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_006" target="Event_Ind_006" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: IndependentControl_006 and Event_Ind_006 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_007" target="Report_Ind_007" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_007 and Report_Ind_007.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_008" target="SocialAccount_Ind_008" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_008 and SocialAccount_Ind_008.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Ind_008" target="MediaOutlet_Ind_008" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: SocialAccount_Ind_008 and MediaOutlet_Ind_008 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_009" target="Event_Ind_009" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: IndependentControl_009 and Event_Ind_009 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_010" target="Report_Ind_010" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_010 and Report_Ind_010.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_011" target="SocialAccount_Ind_011" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_011 and SocialAccount_Ind_011.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Ind_011" target="MediaOutlet_Ind_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: SocialAccount_Ind_011 and MediaOutlet_Ind_011 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_01" target="Report_EC01" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: EmbeddedControl_01 and Report_EC01 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_02" target="Campaign_EC02" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: EmbeddedControl_02 and Campaign_EC02 shared the same abstract link during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_03" target="Report_EC03" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: EmbeddedControl_03 and Report_EC03 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_04" target="Campaign_EC04" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: EmbeddedControl_04 and Campaign_EC04 shared the same abstract link during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_05" target="Report_EC05" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: EmbeddedControl_05 and Report_EC05 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_06" target="Campaign_EC06" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: EmbeddedControl_06 and Campaign_EC06 shared the same abstract link during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W01" target="SocialAccount_WC01" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Funder_W01 and SocialAccount_WC01 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC01" target="MediaOutlet_WC01" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: SocialAccount_WC01 and MediaOutlet_WC01 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC01" target="Proxy_WC01" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC01 repeatedly amplified output attributed to Proxy_WC01 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_WC01" target="Report_WC01" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Proxy_WC01 used wording closely similar to Report_WC01 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W02" target="SocialAccount_WC02" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Funder_W02 and SocialAccount_WC02 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC02" target="MediaOutlet_WC02" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: SocialAccount_WC02 repeatedly amplified output attributed to MediaOutlet_WC02 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC02" target="Campaign_WC02" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC02 used wording closely similar to Campaign_WC02 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W03" target="SocialAccount_WC03" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Funder_W03 and SocialAccount_WC03 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC03" target="MediaOutlet_WC03" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: SocialAccount_WC03 and MediaOutlet_WC03 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC03" target="Proxy_WC03" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC03 repeatedly amplified output attributed to Proxy_WC03 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_WC03" target="Report_WC03" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Proxy_WC03 used wording closely similar to Report_WC03 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W04" target="SocialAccount_WC04" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Funder_W04 and SocialAccount_WC04 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC04" target="MediaOutlet_WC04" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: SocialAccount_WC04 repeatedly amplified output attributed to MediaOutlet_WC04 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC04" target="Campaign_WC04" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC04 used wording closely similar to Campaign_WC04 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W05" target="SocialAccount_WC05" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Funder_W05 and SocialAccount_WC05 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC05" target="MediaOutlet_WC05" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: SocialAccount_WC05 and MediaOutlet_WC05 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC05" target="Proxy_WC05" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC05 repeatedly amplified output attributed to Proxy_WC05 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_WC05" target="Report_WC05" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Proxy_WC05 used wording closely similar to Report_WC05 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W06" target="SocialAccount_WC06" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Funder_W06 and SocialAccount_WC06 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC06" target="MediaOutlet_WC06" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: SocialAccount_WC06 repeatedly amplified output attributed to MediaOutlet_WC06 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC06" target="Campaign_WC06" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC06 used wording closely similar to Campaign_WC06 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_000" target="Noise_Med_004" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_000 and Noise_Med_004 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_000" target="Noise_Soc_001" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_000 and Noise_Soc_001 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_000" target="Noise_Soc_001" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_000 used wording closely similar to Noise_Soc_001 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_000" target="Noise_Eve_023" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_000 used wording closely similar to Noise_Eve_023 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_000" target="Noise_Eve_023" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_000 used wording closely similar to Noise_Eve_023 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_000" target="Noise_Med_020" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_000 used wording closely similar to Noise_Med_020 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_000" target="Noise_Soc_005" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_000 used wording closely similar to Noise_Soc_005 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Eve_019" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 and Noise_Eve_019 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Eve_019" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 used wording closely similar to Noise_Eve_019 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Eve_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 and Noise_Eve_011 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Soc_013" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 and Noise_Soc_013 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Eve_023" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 and Noise_Eve_023 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Rep_022" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 used wording closely similar to Noise_Rep_022 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Med_012" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 used wording closely similar to Noise_Med_012 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Rep_002" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 used wording closely similar to Noise_Rep_002 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Rep_002" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 repeatedly amplified output attributed to Noise_Rep_002 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_001" target="Noise_Soc_009" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Soc_001 repeatedly amplified output attributed to Noise_Soc_009 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_002" target="Noise_Rep_018" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_002 and Noise_Rep_018 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_002" target="Noise_Rep_018" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_002 and Noise_Rep_018 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_002" target="Noise_Rep_018" id="2">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_002 used wording closely similar to Noise_Rep_018 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_002" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_002 and Noise_Med_012 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_002" target="Noise_Soc_009" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_002 repeatedly amplified output attributed to Noise_Soc_009 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_002" target="Noise_Rep_014" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_002 repeatedly amplified output attributed to Noise_Rep_014 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_003" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_003 and Noise_Med_012 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_003" target="Noise_Eve_019" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_003 and Noise_Eve_019 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_003" target="Noise_Rep_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_003 and Noise_Rep_002 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_003" target="Noise_Med_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_003 and Noise_Med_000 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_003" target="Noise_Rep_022" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_003 and Noise_Rep_022 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_003" target="Noise_Med_020" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_003 repeatedly amplified output attributed to Noise_Med_020 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_003" target="Noise_Rep_010" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_003 repeatedly amplified output attributed to Noise_Rep_010 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Med_008" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Med_008 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Med_020" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Med_020 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Med_020" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Med_020 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Soc_001" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Soc_001 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Rep_014" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Rep_014 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Rep_014" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Rep_014 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Eve_015" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Eve_015 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Med_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Med_000 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Eve_023" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Eve_023 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_004 and Noise_Med_012 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Eve_003" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_004 used wording closely similar to Noise_Eve_003 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_004" target="Noise_Eve_007" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Med_004 repeatedly amplified output attributed to Noise_Eve_007 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Med_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 and Noise_Med_000 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Eve_007" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 and Noise_Eve_007 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Eve_007" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 and Noise_Eve_007 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Eve_007" id="2">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 used wording closely similar to Noise_Eve_007 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Med_016" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 and Noise_Med_016 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Rep_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 and Noise_Rep_002 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Rep_002" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 used wording closely similar to Noise_Rep_002 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Rep_002" id="2">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 repeatedly amplified output attributed to Noise_Rep_002 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Soc_017" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 and Noise_Soc_017 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Soc_009" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 used wording closely similar to Noise_Soc_009 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Eve_023" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 used wording closely similar to Noise_Eve_023 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Med_008" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 used wording closely similar to Noise_Med_008 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Rep_014" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 repeatedly amplified output attributed to Noise_Rep_014 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_005" target="Noise_Soc_013" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Soc_005 repeatedly amplified output attributed to Noise_Soc_013 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 and Noise_Med_012 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Med_012" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 used wording closely similar to Noise_Med_012 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Med_016" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 and Noise_Med_016 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Eve_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 and Noise_Eve_011 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Eve_015" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 and Noise_Eve_015 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Rep_018" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 and Noise_Rep_018 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Soc_009" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 and Noise_Soc_009 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Soc_017" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 used wording closely similar to Noise_Soc_017 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Rep_010" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 repeatedly amplified output attributed to Noise_Rep_010 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_006" target="Noise_Eve_019" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_006 repeatedly amplified output attributed to Noise_Eve_019 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_007" target="Noise_Med_020" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_007 and Noise_Med_020 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_007" target="Noise_Med_020" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_007 and Noise_Med_020 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_007" target="Noise_Rep_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_007 and Noise_Rep_002 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_007" target="Noise_Med_016" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_007 and Noise_Med_016 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_007" target="Noise_Med_016" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_007 used wording closely similar to Noise_Med_016 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_007" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_007 and Noise_Med_012 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_007" target="Noise_Eve_023" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_007 and Noise_Eve_023 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Med_016" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_008 and Noise_Med_016 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Eve_019" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_008 and Noise_Eve_019 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Soc_001" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_008 and Noise_Soc_001 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Rep_022" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_008 and Noise_Rep_022 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Rep_014" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_008 and Noise_Rep_014 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Rep_014" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_008 and Noise_Rep_014 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Rep_014" id="2">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_008 used wording closely similar to Noise_Rep_014 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Soc_013" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_008 and Noise_Soc_013 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_008" target="Noise_Rep_018" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_008 used wording closely similar to Noise_Rep_018 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Soc_017" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 and Noise_Soc_017 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Rep_022" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 and Noise_Rep_022 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Med_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 and Noise_Med_000 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Med_000" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 used wording closely similar to Noise_Med_000 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Rep_014" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 used wording closely similar to Noise_Rep_014 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Eve_011" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 used wording closely similar to Noise_Eve_011 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Eve_015" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 used wording closely similar to Noise_Eve_015 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Med_004" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 used wording closely similar to Noise_Med_004 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_009" target="Noise_Med_004" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Soc_009 repeatedly amplified output attributed to Noise_Med_004 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Soc_021" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Soc_021 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Rep_014" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Rep_014 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Rep_014" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Rep_014 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Rep_014" id="2">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 used wording closely similar to Noise_Rep_014 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Med_012 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Med_012" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Med_012 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Rep_006" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Rep_006 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Eve_003" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Eve_003 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Rep_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 and Noise_Rep_002 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Eve_023" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 used wording closely similar to Noise_Eve_023 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Eve_023" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 used wording closely similar to Noise_Eve_023 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Soc_009" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 repeatedly amplified output attributed to Noise_Soc_009 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Soc_009" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 repeatedly amplified output attributed to Noise_Soc_009 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_010" target="Noise_Rep_022" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_010 repeatedly amplified output attributed to Noise_Rep_022 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_011" target="Noise_Med_008" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_011 and Noise_Med_008 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_011" target="Noise_Eve_023" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_011 and Noise_Eve_023 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_011" target="Noise_Soc_001" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_011 used wording closely similar to Noise_Soc_001 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_011" target="Noise_Rep_018" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_011 repeatedly amplified output attributed to Noise_Rep_018 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Rep_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Rep_002 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Rep_002" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Med_012 repeatedly amplified output attributed to Noise_Rep_002 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Rep_010" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Rep_010 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Med_004" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Med_004 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Eve_003" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Eve_003 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Rep_006" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Rep_006 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Med_016" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Med_016 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Eve_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Eve_011 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Eve_011" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_012 and Noise_Eve_011 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Eve_011" id="2">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Med_012 repeatedly amplified output attributed to Noise_Eve_011 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Soc_021" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_012 used wording closely similar to Noise_Soc_021 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Med_000" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_012 used wording closely similar to Noise_Med_000 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Med_008" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_012 used wording closely similar to Noise_Med_008 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_012" target="Noise_Rep_018" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Med_012 repeatedly amplified output attributed to Noise_Rep_018 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_013" target="Noise_Eve_003" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_013 and Noise_Eve_003 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_013" target="Noise_Rep_010" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_013 and Noise_Rep_010 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_013" target="Noise_Rep_002" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_013 and Noise_Rep_002 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_013" target="Noise_Med_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_013 and Noise_Med_000 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_013" target="Noise_Eve_023" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_013 and Noise_Eve_023 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_013" target="Noise_Rep_014" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_013 used wording closely similar to Noise_Rep_014 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_013" target="Noise_Med_008" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_013 used wording closely similar to Noise_Med_008 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Rep_018" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 used wording closely similar to Noise_Rep_018 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Eve_019" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 repeatedly amplified output attributed to Noise_Eve_019 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Eve_019" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 repeatedly amplified output attributed to Noise_Eve_019 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Eve_019" id="2">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 repeatedly amplified output attributed to Noise_Eve_019 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Med_004" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 repeatedly amplified output attributed to Noise_Med_004 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Soc_017" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 repeatedly amplified output attributed to Noise_Soc_017 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Soc_017" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 repeatedly amplified output attributed to Noise_Soc_017 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_014" target="Noise_Soc_013" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_014 repeatedly amplified output attributed to Noise_Soc_013 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Rep_022" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 and Noise_Rep_022 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Rep_018" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 and Noise_Rep_018 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Rep_018" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 repeatedly amplified output attributed to Noise_Rep_018 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Med_016" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 and Noise_Med_016 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Med_016" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 repeatedly amplified output attributed to Noise_Med_016 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Eve_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 and Noise_Eve_011 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Med_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 and Noise_Med_000 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Med_000" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 used wording closely similar to Noise_Med_000 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Soc_013" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 used wording closely similar to Noise_Soc_013 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_015" target="Noise_Soc_001" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_015 used wording closely similar to Noise_Soc_001 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Med_020" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_016 and Noise_Med_020 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Med_020" id="1">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Med_016 repeatedly amplified output attributed to Noise_Med_020 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Eve_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_016 and Noise_Eve_011 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Eve_011" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_016 used wording closely similar to Noise_Eve_011 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Med_004" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_016 and Noise_Med_004 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Med_004" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_016 and Noise_Med_004 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Med_000" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_016 used wording closely similar to Noise_Med_000 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_016" target="Noise_Soc_009" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Med_016 repeatedly amplified output attributed to Noise_Soc_009 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Rep_010" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 and Noise_Rep_010 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Eve_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 and Noise_Eve_011 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Med_004" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 and Noise_Med_004 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Med_004" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 used wording closely similar to Noise_Med_004 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Med_020" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 and Noise_Med_020 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Med_016" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 used wording closely similar to Noise_Med_016 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Eve_007" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 used wording closely similar to Noise_Eve_007 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_017" target="Noise_Soc_021" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_017 used wording closely similar to Noise_Soc_021 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_018" target="Noise_Soc_013" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_018 and Noise_Soc_013 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_018" target="Noise_Med_008" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_018 and Noise_Med_008 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_018" target="Noise_Rep_010" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_018 and Noise_Rep_010 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_018" target="Noise_Eve_019" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_018 and Noise_Eve_019 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_018" target="Noise_Med_012" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_018 used wording closely similar to Noise_Med_012 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_018" target="Noise_Eve_023" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_018 used wording closely similar to Noise_Eve_023 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_018" target="Noise_Soc_001" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_018 repeatedly amplified output attributed to Noise_Soc_001 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Soc_001" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 and Noise_Soc_001 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Soc_009" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 and Noise_Soc_009 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 and Noise_Med_012 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Med_020" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 and Noise_Med_020 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Med_020" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 and Noise_Med_020 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Eve_023" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 and Noise_Eve_023 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Eve_011" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 used wording closely similar to Noise_Eve_011 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Rep_014" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 repeatedly amplified output attributed to Noise_Rep_014 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_019" target="Noise_Med_008" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_019 repeatedly amplified output attributed to Noise_Med_008 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_020" target="Noise_Med_000" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_020 and Noise_Med_000 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_020" target="Noise_Soc_021" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_020 and Noise_Soc_021 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_020" target="Noise_Med_008" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_020 and Noise_Med_008 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_020" target="Noise_Med_008" id="1">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_020 and Noise_Med_008 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_020" target="Noise_Rep_010" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_020 and Noise_Rep_010 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_020" target="Noise_Rep_010" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Med_020 used wording closely similar to Noise_Rep_010 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Med_020" target="Noise_Soc_009" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Med_020 and Noise_Soc_009 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_021" target="Noise_Eve_015" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_021 and Noise_Eve_015 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_021" target="Noise_Rep_018" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Soc_021 and Noise_Rep_018 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_021" target="Noise_Eve_003" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_021 used wording closely similar to Noise_Eve_003 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_021" target="Noise_Rep_002" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_021 used wording closely similar to Noise_Rep_002 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_021" target="Noise_Rep_002" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_021 used wording closely similar to Noise_Rep_002 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Soc_021" target="Noise_Med_016" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Soc_021 used wording closely similar to Noise_Med_016 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Eve_007" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 and Noise_Eve_007 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Rep_018" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 and Noise_Rep_018 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Eve_003" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 and Noise_Eve_003 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Eve_023" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 and Noise_Eve_023 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Med_020" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 and Noise_Med_020 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Med_000" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 used wording closely similar to Noise_Med_000 during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Eve_015" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 repeatedly amplified output attributed to Noise_Eve_015 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Rep_022" target="Noise_Med_008" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Rep_022 repeatedly amplified output attributed to Noise_Med_008 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Eve_003" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 and Noise_Eve_003 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Rep_018" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 and Noise_Rep_018 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Rep_018" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 used wording closely similar to Noise_Rep_018 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Med_012" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 and Noise_Med_012 co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Med_012" id="1">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 used wording closely similar to Noise_Med_012 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Eve_011" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 and Noise_Eve_011 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Rep_022" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 used wording closely similar to Noise_Rep_022 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Soc_001" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 repeatedly amplified output attributed to Noise_Soc_001 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Noise_Eve_023" target="Noise_Eve_007" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Noise_Eve_023 repeatedly amplified output attributed to Noise_Eve_007 during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,9 @@
+scenario_key,seed,n_nodes,n_edges,n_candidate_paths,path_recovery_recall,path_recovery_precision,entity_resolution_precision,er_potential_recall_under_perfect_adjudication,er_n_false_merges,negative_control_specificity,embedded_control_specificity,n_weak_chain_high_priority_review,mean_score_true_paths,mean_score_false_leads
+medium,142,203,340,54,1.0,0.4138,1.0,1.0,0,1.0,1.0,0,66.29,59.08
+medium,143,203,340,54,1.0,0.4138,1.0,1.0,0,1.0,1.0,0,66.29,59.08
+medium,144,203,342,54,1.0,0.4138,1.0,1.0,0,1.0,1.0,0,66.29,59.08
+medium,145,203,339,54,1.0,0.4138,1.0,1.0,0,1.0,1.0,0,66.29,59.08
+medium,146,203,343,54,1.0,0.4138,1.0,1.0,0,1.0,1.0,0,66.29,59.08
+stress,242,504,1280,120,1.0,0.3881,1.0,1.0,0,1.0,1.0,0,66.33,59.32
+stress,243,504,1288,120,1.0,0.3881,1.0,1.0,0,1.0,1.0,0,66.33,59.32
+stress,244,504,1285,120,1.0,0.3881,1.0,1.0,0,1.0,1.0,0,66.33,59.32

@@ -1,0 +1,12 @@
+component,term,weight,description,normalisation,role
+funding_edge,w_fund * funding_edge,22.0,"1 if the path contains a direct synthetic funding edge (grade 4), else 0","binary {0,1}",primary - a documentary funding origin is the strongest single proxy indicator
+mean_grade,w_mean * (mean_grade / 4),30.0,mean synthetic evidence grade across the hops on the path,/4 (grades 0..4),primary - overall documentary strength of the chain
+min_grade,w_min * (min_grade / 4),16.0,weakest (minimum) evidence grade on the path - documentary continuity,/4 (grades 0..4),primary - penalises chains that drop to a weak hop
+evidence_types,w_types * (n_evidence_types / 5),8.0,number of distinct relationship types along the path,/5,secondary - diversity of independent evidence
+temporal_clustering,w_temp * temporal_clustering,6.0,fraction of hops sharing the modal campaign phase,"[0,1]",secondary - temporal coherence of the chain
+semantic_similarity,support * w_sem * semantic,4.0,"1 if a similar-language hop is present, else 0","binary, gated by support",supporting only - cannot raise priority without documentary support
+amplification,support * w_amp * amplification,5.0,"1 if an amplification hop is present, else 0","binary, gated by support",supporting only - cannot raise priority without documentary support
+cooccurrence,support * w_cooc * cooccurrence,4.0,"1 if >= 2 weak co-occurrence / shared-link hops are present, else 0","binary, gated by support",supporting only - repeated weak co-presence
+length_penalty,"- pen * max(0, path_length - 3)",2.0,gentle penalty per hop beyond three,per extra hop,control - long chains accumulate uncertainty
+support_factor,support = min_grade / 4,,gate multiplying every supporting signal,/4 (grades 0..4),gate - weak-signal-only chains receive almost no supporting contribution
+triage_threshold,flag if score >= threshold,60.0,transparent review cut-off,"score in [0,100]","decision boundary - flags are queue entries for expert review, not conclusions"

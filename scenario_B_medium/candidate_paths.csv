@@ -1,0 +1,55 @@
+candidate_id,node_sequence,edge_types,evidence_grades,n_evidence_types,temporal_clustering_score,semantic_similarity_score,amplification_score,review_priority_score,score_ungated_ablation,score_threshold_crossed,eligible_for_high_priority,eligibility_rule_version,ineligible_reason,high_priority_review,path_length,has_funding_edge,has_active_noise,is_weak_chain,touches_embedded_control,ground_truth_label,flagged
+CAND_0013,Funder_001 -> Intermediary_001 -> Campaign_L007,funds -> partners_with,4 -> 3,2,1.0,0.0,0.0,69.45,69.45,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0006,Funder_000 -> Intermediary_000 -> Proxy_000 -> Campaign_000,funds -> partners_with -> hosts,4 -> 3 -> 3,3,0.667,0.0,0.0,67.8,67.8,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0031,Funder_004 -> Intermediary_004 -> Proxy_004 -> Campaign_004,funds -> partners_with -> hosts,4 -> 3 -> 3,3,0.667,0.0,0.0,67.8,67.8,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0036,Funder_007 -> Intermediary_007 -> Event_007 -> Report_007,funds -> hosts -> publishes,4 -> 3 -> 3,3,0.667,0.0,0.0,67.8,67.8,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0037,Funder_008 -> Intermediary_008 -> Proxy_008 -> Campaign_008,funds -> partners_with -> hosts,4 -> 3 -> 3,3,0.667,0.0,0.0,67.8,67.8,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0026,Funder_003 -> Intermediary_003 -> Event_003 -> Report_003,funds -> hosts -> publishes,4 -> 3 -> 3,3,0.667,0.0,0.0,67.8,67.8,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0040,Funder_011 -> Intermediary_011 -> Event_011 -> Report_011,funds -> hosts -> publishes,4 -> 3 -> 3,3,0.667,0.0,0.0,67.8,67.8,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0018,Funder_002 -> Intermediary_002 -> Campaign_WC02,funds -> partners_with,4 -> 3,2,0.5,0.0,0.0,66.45,66.45,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0025,Funder_003 -> Intermediary_003 -> Campaign_WC04,funds -> partners_with,4 -> 3,2,0.5,0.0,0.0,66.45,66.45,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0004,Funder_000 -> Intermediary_000 -> Campaign_L005,funds -> partners_with,4 -> 3,2,0.5,0.0,0.0,66.45,66.45,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0033,Funder_005 -> Intermediary_005 -> Event_005 -> Proxy_005 -> Report_005,funds -> hosts -> speaks_at -> publishes,4 -> 3 -> 3 -> 3,4,0.5,0.0,0.0,65.78,65.78,1,1,funding_and_min_grade_2_v1,,1,4,1,0,0,0,1,1
+CAND_0038,Funder_009 -> Intermediary_009 -> Event_009 -> Proxy_009 -> Report_009,funds -> hosts -> speaks_at -> publishes,4 -> 3 -> 3 -> 3,4,0.5,0.0,0.0,65.78,65.78,1,1,funding_and_min_grade_2_v1,,1,4,1,0,0,0,1,1
+CAND_0011,Funder_001 -> Intermediary_001 -> Event_001 -> Proxy_001 -> Report_001,funds -> hosts -> speaks_at -> publishes,4 -> 3 -> 3 -> 3,4,0.5,0.0,0.0,65.78,65.78,1,1,funding_and_min_grade_2_v1,,1,4,1,0,0,0,1,1
+CAND_0014,Funder_001 -> Intermediary_001 -> Campaign_EC06,funds -> amplifies,4 -> 2,2,1.0,0.0,1.0,64.2,66.7,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0017,Funder_002 -> Intermediary_002 -> Proxy_002 -> Campaign_002,funds -> partners_with -> amplifies,4 -> 3 -> 2,3,0.667,0.0,1.0,63.8,66.3,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0039,Funder_010 -> Intermediary_010 -> Proxy_010 -> Campaign_010,funds -> partners_with -> amplifies,4 -> 3 -> 2,3,0.667,0.0,1.0,63.8,66.3,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0035,Funder_006 -> Intermediary_006 -> Proxy_006 -> Campaign_006,funds -> partners_with -> amplifies,4 -> 3 -> 2,3,0.667,0.0,1.0,63.8,66.3,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,1,1
+CAND_0016,Funder_001 -> Intermediary_001 -> Campaign_008,funds -> shares_link,4 -> 2,2,1.0,0.0,0.0,61.7,61.7,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0042,Funder_L001 -> Intermediary_L001 -> Proxy_L001 -> Campaign_L001,funds -> partners_with -> shares_link,4 -> 3 -> 2,3,0.667,0.0,0.0,61.3,61.3,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,0,1
+CAND_0028,Funder_003 -> Intermediary_003 -> Proxy_005 -> Report_005,funds -> shares_link -> publishes,4 -> 2 -> 3,3,0.667,0.0,0.0,61.3,61.3,1,1,funding_and_min_grade_2_v1,,1,3,1,1,0,0,0,1
+CAND_0019,Funder_002 -> Intermediary_002 -> Proxy_004 -> Campaign_004,funds -> shares_link -> hosts,4 -> 2 -> 3,3,0.667,0.0,0.0,61.3,61.3,1,1,funding_and_min_grade_2_v1,,1,3,1,1,0,0,0,1
+CAND_0044,Funder_L003 -> Intermediary_L003 -> Proxy_L003 -> Campaign_L003,funds -> partners_with -> shares_link,4 -> 3 -> 2,3,0.667,0.0,0.0,61.3,61.3,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,0,1
+CAND_0048,Funder_L007 -> Intermediary_L007 -> Proxy_L007 -> Campaign_L007,funds -> partners_with -> shares_link,4 -> 3 -> 2,3,0.667,0.0,0.0,61.3,61.3,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,0,1
+CAND_0046,Funder_L005 -> Intermediary_L005 -> Proxy_L005 -> Campaign_L005,funds -> partners_with -> shares_link,4 -> 3 -> 2,3,0.667,0.0,0.0,61.3,61.3,1,1,funding_and_min_grade_2_v1,,1,3,1,0,0,0,0,1
+CAND_0003,Funder_000 -> Intermediary_000 -> Campaign_EC04,funds -> amplifies,4 -> 2,2,0.5,0.0,1.0,61.2,63.7,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0022,Funder_002 -> Intermediary_002 -> Campaign_L001,funds -> amplifies,4 -> 2,2,0.5,0.0,1.0,61.2,63.7,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0008,Funder_000 -> Intermediary_000 -> Campaign_010,funds -> uses_similar_language,4 -> 2,2,0.5,1.0,0.0,60.7,62.7,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0012,Funder_001 -> Intermediary_001 -> Campaign_EC02,funds -> uses_similar_language,4 -> 2,2,0.5,1.0,0.0,60.7,62.7,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0024,Funder_002 -> Intermediary_002 -> Campaign_EC04,funds -> uses_similar_language,4 -> 2,2,0.5,1.0,0.0,60.7,62.7,1,1,funding_and_min_grade_2_v1,,1,2,1,1,0,0,0,1
+CAND_0005,Funder_000 -> Intermediary_000 -> Proxy_001 -> Report_001,funds -> shares_link -> publishes,4 -> 2 -> 3,3,0.333,0.0,0.0,59.3,59.3,0,1,funding_and_min_grade_2_v1,,0,3,1,1,0,0,0,0
+CAND_0010,Funder_001 -> Intermediary_001 -> Proxy_002 -> Campaign_002,funds -> shares_link -> amplifies,4 -> 2 -> 2,3,0.333,0.0,1.0,59.3,61.8,0,1,funding_and_min_grade_2_v1,,0,3,1,1,0,0,0,0
+CAND_0027,Funder_003 -> Intermediary_003 -> Campaign_EC02,funds -> shares_link,4 -> 2,2,0.5,0.0,0.0,58.7,58.7,0,1,funding_and_min_grade_2_v1,,0,2,1,1,0,0,0,0
+CAND_0002,Funder_000 -> Intermediary_000 -> Campaign_006,funds -> shares_link,4 -> 2,2,0.5,0.0,0.0,58.7,58.7,0,1,funding_and_min_grade_2_v1,,0,2,1,1,0,0,0,0
+CAND_0020,Funder_002 -> Intermediary_002 -> Campaign_010,funds -> shares_link,4 -> 2,2,0.5,0.0,0.0,58.7,58.7,0,1,funding_and_min_grade_2_v1,,0,2,1,1,0,0,0,0
+CAND_0029,Funder_003 -> Intermediary_003 -> Campaign_008,funds -> co_occurs_with,4 -> 1,2,1.0,0.0,0.0,53.95,53.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,1,0,0,0,0
+CAND_0009,Funder_001 -> Intermediary_001 -> EmbeddedControl_02 -> Campaign_EC02,funds -> co_occurs_with -> shares_link,4 -> 1 -> 2,3,0.333,0.0,0.0,51.3,54.3,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,3,1,0,0,1,0,0
+CAND_0030,Funder_003 -> Intermediary_003 -> EmbeddedControl_04 -> Campaign_EC04,funds -> co_occurs_with -> shares_link,4 -> 1 -> 2,3,0.333,0.0,0.0,51.3,54.3,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,3,1,0,0,1,0,0
+CAND_0034,Funder_005 -> Intermediary_005 -> EmbeddedControl_06 -> Campaign_EC06,funds -> co_occurs_with -> shares_link,4 -> 1 -> 2,3,0.333,0.0,0.0,51.3,54.3,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,3,1,0,0,1,0,0
+CAND_0047,Funder_L006 -> Intermediary_L006 -> Report_L006,funds -> co_occurs_with,4 -> 1,2,0.5,0.0,0.0,50.95,50.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,0,0,0,0,0
+CAND_0023,Funder_002 -> Intermediary_002 -> Campaign_006,funds -> co_occurs_with,4 -> 1,2,0.5,0.0,0.0,50.95,50.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,1,0,0,0,0
+CAND_0007,Funder_000 -> Intermediary_000 -> Campaign_002,funds -> co_occurs_with,4 -> 1,2,0.5,0.0,0.0,50.95,50.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,1,0,0,0,0
+CAND_0015,Funder_001 -> Intermediary_001 -> Campaign_004,funds -> co_occurs_with,4 -> 1,2,0.5,0.0,0.0,50.95,50.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,1,0,0,0,0
+CAND_0045,Funder_L004 -> Intermediary_L004 -> Report_L004,funds -> co_occurs_with,4 -> 1,2,0.5,0.0,0.0,50.95,50.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,0,0,0,0,0
+CAND_0041,Funder_L000 -> Intermediary_L000 -> Report_L000,funds -> co_occurs_with,4 -> 1,2,0.5,0.0,0.0,50.95,50.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,0,0,0,0,0
+CAND_0043,Funder_L002 -> Intermediary_L002 -> Report_L002,funds -> co_occurs_with,4 -> 1,2,0.5,0.0,0.0,50.95,50.95,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,2,1,0,0,0,0,0
+CAND_0001,Funder_000 -> Intermediary_000 -> EmbeddedControl_01 -> Report_EC01,funds -> co_occurs_with -> co_occurs_with,4 -> 1 -> 1,2,0.333,0.0,0.0,47.2,50.2,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,3,1,0,0,1,0,0
+CAND_0021,Funder_002 -> Intermediary_002 -> EmbeddedControl_03 -> Report_EC03,funds -> co_occurs_with -> co_occurs_with,4 -> 1 -> 1,2,0.333,0.0,0.0,47.2,50.2,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,3,1,0,0,1,0,0
+CAND_0032,Funder_004 -> Intermediary_004 -> EmbeddedControl_05 -> Report_EC05,funds -> co_occurs_with -> co_occurs_with,4 -> 1 -> 1,2,0.333,0.0,0.0,47.2,50.2,0,0,funding_and_min_grade_2_v1,minimum_evidence_grade_below_2,0,3,1,0,0,1,0,0
+CAND_0050,Funder_W02 -> SocialAccount_WC02 -> MediaOutlet_WC02 -> Campaign_WC02,shares_link -> amplifies -> uses_similar_language,2 -> 2 -> 2,3,1.0,1.0,1.0,38.3,42.8,0,0,funding_and_min_grade_2_v1,missing_funding_edge,0,3,0,0,1,0,0,0
+CAND_0052,Funder_W04 -> SocialAccount_WC04 -> MediaOutlet_WC04 -> Campaign_WC04,shares_link -> amplifies -> uses_similar_language,2 -> 2 -> 2,3,1.0,1.0,1.0,38.3,42.8,0,0,funding_and_min_grade_2_v1,missing_funding_edge,0,3,0,0,1,0,0,0
+CAND_0054,Funder_W06 -> SocialAccount_WC06 -> MediaOutlet_WC06 -> Campaign_WC06,shares_link -> amplifies -> uses_similar_language,2 -> 2 -> 2,3,1.0,1.0,1.0,38.3,42.8,0,0,funding_and_min_grade_2_v1,missing_funding_edge,0,3,0,0,1,0,0,0
+CAND_0049,Funder_W01 -> SocialAccount_WC01 -> MediaOutlet_WC01 -> Proxy_WC01 -> Report_WC01,co_occurs_with -> shares_link -> amplifies -> uses_similar_language,1 -> 2 -> 2 -> 2,4,0.5,1.0,1.0,27.77,37.52,0,0,funding_and_min_grade_2_v1,missing_funding_edge;minimum_evidence_grade_below_2,0,4,0,0,1,0,0,0
+CAND_0051,Funder_W03 -> SocialAccount_WC03 -> MediaOutlet_WC03 -> Proxy_WC03 -> Report_WC03,co_occurs_with -> shares_link -> amplifies -> uses_similar_language,1 -> 2 -> 2 -> 2,4,0.5,1.0,1.0,27.77,37.52,0,0,funding_and_min_grade_2_v1,missing_funding_edge;minimum_evidence_grade_below_2,0,4,0,0,1,0,0,0
+CAND_0053,Funder_W05 -> SocialAccount_WC05 -> MediaOutlet_WC05 -> Proxy_WC05 -> Report_WC05,co_occurs_with -> shares_link -> amplifies -> uses_similar_language,1 -> 2 -> 2 -> 2,4,0.5,1.0,1.0,27.77,37.52,0,0,funding_and_min_grade_2_v1,missing_funding_edge;minimum_evidence_grade_below_2,0,4,0,0,1,0,0,0

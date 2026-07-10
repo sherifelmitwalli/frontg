@@ -1,0 +1,864 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {
+    "name": "synthetic_network_small",
+    "seed": 42
+  },
+  "nodes": [
+    {
+      "node_class": "Funder",
+      "canonical_id": "Funder_01",
+      "surface_form": "Funder_01",
+      "is_independent_control": false,
+      "id": "Funder_01"
+    },
+    {
+      "node_class": "Intermediary",
+      "canonical_id": "Intermediary_Alpha",
+      "surface_form": "Intermediary_Alpha",
+      "is_independent_control": false,
+      "id": "Intermediary_Alpha"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "Proxy_X",
+      "surface_form": "Proxy_X",
+      "is_independent_control": false,
+      "id": "Proxy_X"
+    },
+    {
+      "node_class": "Campaign",
+      "canonical_id": "Campaign_Y",
+      "surface_form": "Campaign_Y",
+      "is_independent_control": false,
+      "id": "Campaign_Y"
+    },
+    {
+      "node_class": "Funder",
+      "canonical_id": "Funder_02",
+      "surface_form": "Funder_02",
+      "is_independent_control": false,
+      "id": "Funder_02"
+    },
+    {
+      "node_class": "Intermediary",
+      "canonical_id": "Intermediary_Beta",
+      "surface_form": "Intermediary_Beta",
+      "is_independent_control": false,
+      "id": "Intermediary_Beta"
+    },
+    {
+      "node_class": "Event",
+      "canonical_id": "Event_C",
+      "surface_form": "Event_C",
+      "is_independent_control": false,
+      "id": "Event_C"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "Proxy_Z",
+      "surface_form": "Proxy_Z",
+      "is_independent_control": false,
+      "id": "Proxy_Z"
+    },
+    {
+      "node_class": "Report",
+      "canonical_id": "Report_Q",
+      "surface_form": "Report_Q",
+      "is_independent_control": false,
+      "id": "Report_Q"
+    },
+    {
+      "node_class": "Funder",
+      "canonical_id": "Funder_03",
+      "surface_form": "Funder_03",
+      "is_independent_control": false,
+      "id": "Funder_03"
+    },
+    {
+      "node_class": "Intermediary",
+      "canonical_id": "Intermediary_Gamma",
+      "surface_form": "Intermediary_Gamma",
+      "is_independent_control": false,
+      "id": "Intermediary_Gamma"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "Proxy_W",
+      "surface_form": "Proxy_W",
+      "is_independent_control": false,
+      "id": "Proxy_W"
+    },
+    {
+      "node_class": "Campaign",
+      "canonical_id": "Campaign_V",
+      "surface_form": "Campaign_V",
+      "is_independent_control": false,
+      "id": "Campaign_V"
+    },
+    {
+      "node_class": "Intermediary",
+      "canonical_id": "Intermediary_Delta",
+      "surface_form": "Intermediary_Delta",
+      "is_independent_control": false,
+      "id": "Intermediary_Delta"
+    },
+    {
+      "node_class": "Event",
+      "canonical_id": "Event_D",
+      "surface_form": "Event_D",
+      "is_independent_control": false,
+      "id": "Event_D"
+    },
+    {
+      "node_class": "Report",
+      "canonical_id": "Report_R",
+      "surface_form": "Report_R",
+      "is_independent_control": false,
+      "id": "Report_R"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "CANON_HA_A",
+      "surface_form": "Health_Alliance_A",
+      "is_independent_control": false,
+      "id": "Health_Alliance_A"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "CANON_HA_B",
+      "surface_form": "Health_Alliance_B",
+      "is_independent_control": false,
+      "id": "Health_Alliance_B"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "CANON_PCN_1",
+      "surface_form": "Public_Choice_Network",
+      "is_independent_control": false,
+      "id": "Public_Choice_Network"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "CANON_PCN_2",
+      "surface_form": "Public_Choices_Network",
+      "is_independent_control": false,
+      "id": "Public_Choices_Network"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "CANON_RF_1",
+      "surface_form": "Research_Forum_Alpha",
+      "is_independent_control": false,
+      "id": "Research_Forum_Alpha"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "CANON_RF_2",
+      "surface_form": "Research_Forums_Alpha",
+      "is_independent_control": false,
+      "id": "Research_Forums_Alpha"
+    },
+    {
+      "node_class": "Intermediary",
+      "canonical_id": "CANON_GAMMA",
+      "surface_form": "Intermediary_Gamma_Group",
+      "is_independent_control": false,
+      "id": "Intermediary_Gamma_Group"
+    },
+    {
+      "node_class": "Intermediary",
+      "canonical_id": "CANON_GAMMA",
+      "surface_form": "Gamma_Intermediary_Network",
+      "is_independent_control": false,
+      "id": "Gamma_Intermediary_Network"
+    },
+    {
+      "node_class": "Campaign",
+      "canonical_id": "CANON_OMEGA",
+      "surface_form": "Campaign_Omega",
+      "is_independent_control": false,
+      "id": "Campaign_Omega"
+    },
+    {
+      "node_class": "Campaign",
+      "canonical_id": "CANON_OMEGA",
+      "surface_form": "Campaign_Omega_Initiative",
+      "is_independent_control": false,
+      "id": "Campaign_Omega_Initiative"
+    },
+    {
+      "node_class": "IndependentControl",
+      "canonical_id": "IndependentControl_01",
+      "surface_form": "IndependentControl_01",
+      "is_independent_control": true,
+      "id": "IndependentControl_01"
+    },
+    {
+      "node_class": "Event",
+      "canonical_id": "Event_Ind_01",
+      "surface_form": "Event_Ind_01",
+      "is_independent_control": true,
+      "id": "Event_Ind_01"
+    },
+    {
+      "node_class": "IndependentControl",
+      "canonical_id": "IndependentControl_02",
+      "surface_form": "IndependentControl_02",
+      "is_independent_control": true,
+      "id": "IndependentControl_02"
+    },
+    {
+      "node_class": "Report",
+      "canonical_id": "Report_Ind_02",
+      "surface_form": "Report_Ind_02",
+      "is_independent_control": true,
+      "id": "Report_Ind_02"
+    },
+    {
+      "node_class": "IndependentControl",
+      "canonical_id": "IndependentControl_03",
+      "surface_form": "IndependentControl_03",
+      "is_independent_control": true,
+      "id": "IndependentControl_03"
+    },
+    {
+      "node_class": "SocialAccount",
+      "canonical_id": "SocialAccount_Ind_03",
+      "surface_form": "SocialAccount_Ind_03",
+      "is_independent_control": true,
+      "id": "SocialAccount_Ind_03"
+    },
+    {
+      "node_class": "MediaOutlet",
+      "canonical_id": "MediaOutlet_Ind_03",
+      "surface_form": "MediaOutlet_Ind_03",
+      "is_independent_control": true,
+      "id": "MediaOutlet_Ind_03"
+    },
+    {
+      "node_class": "IndependentControl",
+      "canonical_id": "IndependentControl_04",
+      "surface_form": "IndependentControl_04",
+      "is_independent_control": true,
+      "id": "IndependentControl_04"
+    },
+    {
+      "node_class": "Campaign",
+      "canonical_id": "Campaign_Ind_04",
+      "surface_form": "Campaign_Ind_04",
+      "is_independent_control": true,
+      "id": "Campaign_Ind_04"
+    },
+    {
+      "node_class": "IndependentControl",
+      "canonical_id": "EmbeddedControl_01",
+      "surface_form": "EmbeddedControl_01",
+      "is_independent_control": true,
+      "id": "EmbeddedControl_01"
+    },
+    {
+      "node_class": "Report",
+      "canonical_id": "Report_EC01",
+      "surface_form": "Report_EC01",
+      "is_independent_control": false,
+      "id": "Report_EC01"
+    },
+    {
+      "node_class": "IndependentControl",
+      "canonical_id": "EmbeddedControl_02",
+      "surface_form": "EmbeddedControl_02",
+      "is_independent_control": true,
+      "id": "EmbeddedControl_02"
+    },
+    {
+      "node_class": "Campaign",
+      "canonical_id": "Campaign_EC02",
+      "surface_form": "Campaign_EC02",
+      "is_independent_control": false,
+      "id": "Campaign_EC02"
+    },
+    {
+      "node_class": "Funder",
+      "canonical_id": "Funder_W01",
+      "surface_form": "Funder_W01",
+      "is_independent_control": false,
+      "id": "Funder_W01"
+    },
+    {
+      "node_class": "SocialAccount",
+      "canonical_id": "SocialAccount_WC01",
+      "surface_form": "SocialAccount_WC01",
+      "is_independent_control": false,
+      "id": "SocialAccount_WC01"
+    },
+    {
+      "node_class": "MediaOutlet",
+      "canonical_id": "MediaOutlet_WC01",
+      "surface_form": "MediaOutlet_WC01",
+      "is_independent_control": false,
+      "id": "MediaOutlet_WC01"
+    },
+    {
+      "node_class": "Proxy",
+      "canonical_id": "Proxy_WC01",
+      "surface_form": "Proxy_WC01",
+      "is_independent_control": false,
+      "id": "Proxy_WC01"
+    },
+    {
+      "node_class": "Report",
+      "canonical_id": "Report_WC01",
+      "surface_form": "Report_WC01",
+      "is_independent_control": false,
+      "id": "Report_WC01"
+    },
+    {
+      "node_class": "Funder",
+      "canonical_id": "Funder_W02",
+      "surface_form": "Funder_W02",
+      "is_independent_control": false,
+      "id": "Funder_W02"
+    },
+    {
+      "node_class": "SocialAccount",
+      "canonical_id": "SocialAccount_WC02",
+      "surface_form": "SocialAccount_WC02",
+      "is_independent_control": false,
+      "id": "SocialAccount_WC02"
+    },
+    {
+      "node_class": "MediaOutlet",
+      "canonical_id": "MediaOutlet_WC02",
+      "surface_form": "MediaOutlet_WC02",
+      "is_independent_control": false,
+      "id": "MediaOutlet_WC02"
+    },
+    {
+      "node_class": "Campaign",
+      "canonical_id": "Campaign_WC02",
+      "surface_form": "Campaign_WC02",
+      "is_independent_control": false,
+      "id": "Campaign_WC02"
+    },
+    {
+      "node_class": "MediaOutlet",
+      "canonical_id": "MediaOutlet_Theta",
+      "surface_form": "MediaOutlet_Theta",
+      "is_independent_control": false,
+      "id": "MediaOutlet_Theta"
+    },
+    {
+      "node_class": "SocialAccount",
+      "canonical_id": "SocialAccount_Eta",
+      "surface_form": "SocialAccount_Eta",
+      "is_independent_control": false,
+      "id": "SocialAccount_Eta"
+    },
+    {
+      "node_class": "SocialAccount",
+      "canonical_id": "SocialAccount_Iota",
+      "surface_form": "SocialAccount_Iota",
+      "is_independent_control": false,
+      "id": "SocialAccount_Iota"
+    },
+    {
+      "node_class": "Report",
+      "canonical_id": "Report_Sigma",
+      "surface_form": "Report_Sigma",
+      "is_independent_control": false,
+      "id": "Report_Sigma"
+    },
+    {
+      "node_class": "Event",
+      "canonical_id": "Event_Kappa",
+      "surface_form": "Event_Kappa",
+      "is_independent_control": false,
+      "id": "Event_Kappa"
+    }
+  ],
+  "links": [
+    {
+      "edge_type": "funds",
+      "evidence_snippet": "Synthetic record: Funder_01 is listed as providing funding to Intermediary_Alpha during Phase_01.",
+      "evidence_grade": 4,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Funder_01",
+      "target": "Intermediary_Alpha",
+      "key": 0
+    },
+    {
+      "edge_type": "funds",
+      "evidence_snippet": "Synthetic record: Funder_01 is listed as providing funding to Intermediary_Delta during Phase_01.",
+      "evidence_grade": 4,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Funder_01",
+      "target": "Intermediary_Delta",
+      "key": 0
+    },
+    {
+      "edge_type": "partners_with",
+      "evidence_snippet": "Synthetic record: Intermediary_Alpha is described as a partner of Proxy_X during Phase_01.",
+      "evidence_grade": 3,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Intermediary_Alpha",
+      "target": "Proxy_X",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: Intermediary_Alpha and EmbeddedControl_01 co-occurred in one abstract index during Phase_02.",
+      "evidence_grade": 1,
+      "phase": "Phase_02",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "Intermediary_Alpha",
+      "target": "EmbeddedControl_01",
+      "key": 0
+    },
+    {
+      "edge_type": "hosts",
+      "evidence_snippet": "Synthetic record: Proxy_X is listed as a host of Campaign_Y during Phase_02.",
+      "evidence_grade": 3,
+      "phase": "Phase_02",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Proxy_X",
+      "target": "Campaign_Y",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: Proxy_X and EmbeddedControl_02 co-occurred in one abstract index during Phase_02.",
+      "evidence_grade": 1,
+      "phase": "Phase_02",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "Proxy_X",
+      "target": "EmbeddedControl_02",
+      "key": 0
+    },
+    {
+      "edge_type": "funds",
+      "evidence_snippet": "Synthetic record: Funder_02 is listed as providing funding to Intermediary_Beta during Phase_01.",
+      "evidence_grade": 4,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Funder_02",
+      "target": "Intermediary_Beta",
+      "key": 0
+    },
+    {
+      "edge_type": "hosts",
+      "evidence_snippet": "Synthetic record: Intermediary_Beta is listed as a host of Event_C during Phase_01.",
+      "evidence_grade": 3,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Intermediary_Beta",
+      "target": "Event_C",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: Intermediary_Beta and Report_R co-occurred in one abstract index during Phase_01.",
+      "evidence_grade": 1,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Intermediary_Beta",
+      "target": "Report_R",
+      "key": 0
+    },
+    {
+      "edge_type": "speaks_at",
+      "evidence_snippet": "Synthetic record: a representative of Event_C is listed as speaking at Proxy_Z during Phase_02.",
+      "evidence_grade": 3,
+      "phase": "Phase_02",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Event_C",
+      "target": "Proxy_Z",
+      "key": 0
+    },
+    {
+      "edge_type": "publishes",
+      "evidence_snippet": "Synthetic record: Proxy_Z is listed as the publisher of Report_Q during Phase_02.",
+      "evidence_grade": 3,
+      "phase": "Phase_02",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Proxy_Z",
+      "target": "Report_Q",
+      "key": 0
+    },
+    {
+      "edge_type": "funds",
+      "evidence_snippet": "Synthetic record: Funder_03 is listed as providing funding to Intermediary_Gamma during Phase_01.",
+      "evidence_grade": 4,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Funder_03",
+      "target": "Intermediary_Gamma",
+      "key": 0
+    },
+    {
+      "edge_type": "partners_with",
+      "evidence_snippet": "Synthetic record: Intermediary_Gamma is described as a partner of Proxy_W during Phase_01.",
+      "evidence_grade": 3,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Intermediary_Gamma",
+      "target": "Proxy_W",
+      "key": 0
+    },
+    {
+      "edge_type": "amplifies",
+      "evidence_snippet": "Synthetic record: Proxy_W repeatedly amplified output attributed to Campaign_V during Phase_02.",
+      "evidence_grade": 2,
+      "phase": "Phase_02",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Proxy_W",
+      "target": "Campaign_V",
+      "key": 0
+    },
+    {
+      "edge_type": "shares_link",
+      "evidence_snippet": "Synthetic record: Proxy_W and Campaign_Y shared the same abstract link during Phase_03.",
+      "evidence_grade": 2,
+      "phase": "Phase_03",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Proxy_W",
+      "target": "Campaign_Y",
+      "key": 0
+    },
+    {
+      "edge_type": "hosts",
+      "evidence_snippet": "Synthetic record: Intermediary_Delta is listed as a host of Event_D during Phase_01.",
+      "evidence_grade": 3,
+      "phase": "Phase_01",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Intermediary_Delta",
+      "target": "Event_D",
+      "key": 0
+    },
+    {
+      "edge_type": "publishes",
+      "evidence_snippet": "Synthetic record: Event_D is listed as the publisher of Report_R during Phase_02.",
+      "evidence_grade": 3,
+      "phase": "Phase_02",
+      "is_ground_truth": true,
+      "is_distractor": false,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Event_D",
+      "target": "Report_R",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: IndependentControl_01 and Event_Ind_01 co-occurred in one abstract index during Phase_01.",
+      "evidence_grade": 1,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "IndependentControl_01",
+      "target": "Event_Ind_01",
+      "key": 0
+    },
+    {
+      "edge_type": "no_known_link",
+      "evidence_snippet": "Synthetic record: no documented association observed between IndependentControl_02 and Report_Ind_02.",
+      "evidence_grade": 0,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "IndependentControl_02",
+      "target": "Report_Ind_02",
+      "key": 0
+    },
+    {
+      "edge_type": "no_known_link",
+      "evidence_snippet": "Synthetic record: no documented association observed between IndependentControl_03 and SocialAccount_Ind_03.",
+      "evidence_grade": 0,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "IndependentControl_03",
+      "target": "SocialAccount_Ind_03",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: SocialAccount_Ind_03 and MediaOutlet_Ind_03 co-occurred in one abstract index during Phase_01.",
+      "evidence_grade": 1,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "SocialAccount_Ind_03",
+      "target": "MediaOutlet_Ind_03",
+      "key": 0
+    },
+    {
+      "edge_type": "no_known_link",
+      "evidence_snippet": "Synthetic record: no documented association observed between IndependentControl_04 and Campaign_Ind_04.",
+      "evidence_grade": 0,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "IndependentControl_04",
+      "target": "Campaign_Ind_04",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: EmbeddedControl_01 and Report_EC01 co-occurred in one abstract index during Phase_03.",
+      "evidence_grade": 1,
+      "phase": "Phase_03",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "EmbeddedControl_01",
+      "target": "Report_EC01",
+      "key": 0
+    },
+    {
+      "edge_type": "shares_link",
+      "evidence_snippet": "Synthetic record: EmbeddedControl_02 and Campaign_EC02 shared the same abstract link during Phase_03.",
+      "evidence_grade": 2,
+      "phase": "Phase_03",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": true,
+      "is_active_noise": false,
+      "source": "EmbeddedControl_02",
+      "target": "Campaign_EC02",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: Funder_W01 and SocialAccount_WC01 co-occurred in one abstract index during Phase_01.",
+      "evidence_grade": 1,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Funder_W01",
+      "target": "SocialAccount_WC01",
+      "key": 0
+    },
+    {
+      "edge_type": "shares_link",
+      "evidence_snippet": "Synthetic record: SocialAccount_WC01 and MediaOutlet_WC01 shared the same abstract link during Phase_01.",
+      "evidence_grade": 2,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "SocialAccount_WC01",
+      "target": "MediaOutlet_WC01",
+      "key": 0
+    },
+    {
+      "edge_type": "amplifies",
+      "evidence_snippet": "Synthetic record: MediaOutlet_WC01 repeatedly amplified output attributed to Proxy_WC01 during Phase_02.",
+      "evidence_grade": 2,
+      "phase": "Phase_02",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "MediaOutlet_WC01",
+      "target": "Proxy_WC01",
+      "key": 0
+    },
+    {
+      "edge_type": "uses_similar_language",
+      "evidence_snippet": "Synthetic record: Proxy_WC01 used wording closely similar to Report_WC01 during Phase_02.",
+      "evidence_grade": 2,
+      "phase": "Phase_02",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Proxy_WC01",
+      "target": "Report_WC01",
+      "key": 0
+    },
+    {
+      "edge_type": "shares_link",
+      "evidence_snippet": "Synthetic record: Funder_W02 and SocialAccount_WC02 shared the same abstract link during Phase_01.",
+      "evidence_grade": 2,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Funder_W02",
+      "target": "SocialAccount_WC02",
+      "key": 0
+    },
+    {
+      "edge_type": "amplifies",
+      "evidence_snippet": "Synthetic record: SocialAccount_WC02 repeatedly amplified output attributed to MediaOutlet_WC02 during Phase_01.",
+      "evidence_grade": 2,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "SocialAccount_WC02",
+      "target": "MediaOutlet_WC02",
+      "key": 0
+    },
+    {
+      "edge_type": "uses_similar_language",
+      "evidence_snippet": "Synthetic record: MediaOutlet_WC02 used wording closely similar to Campaign_WC02 during Phase_01.",
+      "evidence_grade": 2,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "MediaOutlet_WC02",
+      "target": "Campaign_WC02",
+      "key": 0
+    },
+    {
+      "edge_type": "cites",
+      "evidence_snippet": "Synthetic record: MediaOutlet_Theta cites Report_Sigma in an abstract document during Phase_01.",
+      "evidence_grade": 3,
+      "phase": "Phase_01",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "MediaOutlet_Theta",
+      "target": "Report_Sigma",
+      "key": 0
+    },
+    {
+      "edge_type": "amplifies",
+      "evidence_snippet": "Synthetic record: SocialAccount_Eta repeatedly amplified output attributed to MediaOutlet_Theta during Phase_04.",
+      "evidence_grade": 2,
+      "phase": "Phase_04",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "SocialAccount_Eta",
+      "target": "MediaOutlet_Theta",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: SocialAccount_Iota and SocialAccount_Eta co-occurred in one abstract index during Phase_03.",
+      "evidence_grade": 1,
+      "phase": "Phase_03",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "SocialAccount_Iota",
+      "target": "SocialAccount_Eta",
+      "key": 0
+    },
+    {
+      "edge_type": "uses_similar_language",
+      "evidence_snippet": "Synthetic record: SocialAccount_Iota used wording closely similar to MediaOutlet_Theta during Phase_02.",
+      "evidence_grade": 2,
+      "phase": "Phase_02",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "SocialAccount_Iota",
+      "target": "MediaOutlet_Theta",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: Event_Kappa and Report_Sigma co-occurred in one abstract index during Phase_02.",
+      "evidence_grade": 1,
+      "phase": "Phase_02",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Event_Kappa",
+      "target": "Report_Sigma",
+      "key": 0
+    },
+    {
+      "edge_type": "co_occurs_with",
+      "evidence_snippet": "Synthetic record: Event_Kappa and SocialAccount_Eta co-occurred in one abstract index during Phase_04.",
+      "evidence_grade": 1,
+      "phase": "Phase_04",
+      "is_ground_truth": false,
+      "is_distractor": true,
+      "is_negative_control": false,
+      "is_active_noise": false,
+      "source": "Event_Kappa",
+      "target": "SocialAccount_Eta",
+      "key": 0
+    }
+  ]
+}

@@ -1,0 +1,1403 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Validation Tracking Report - Scenario B - Medium validation scenario</title><style>
+    body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:1040px;margin:24px auto;padding:0 18px;color:#1a1a1a;line-height:1.5}
+    h1{color:#1F3864;margin-bottom:2px} h2{color:#2E4D7B;border-bottom:2px solid #D9E2F3;padding-bottom:4px;margin-top:28px}
+    .sub{color:#666;margin-top:0} .note{color:#444;font-size:.92em}
+    .disc{background:#D9E2F3;border:1px solid #1F3864;border-radius:6px;padding:12px 14px;margin:14px 0;font-size:.95em}
+    table.tbl{border-collapse:collapse;width:100%;margin:10px 0;font-size:.82em}
+    table.tbl th{background:#1F3864;color:#fff;text-align:left;padding:7px 9px}
+    table.tbl td{border:1px solid #cfd8e8;padding:6px 9px;vertical-align:top}
+    table.tbl tr:nth-child(even){background:#F2F5FB}
+    figure{margin:16px 0;text-align:center} figure img{max-width:100%;border:1px solid #ccc;border-radius:4px}
+    figcaption{font-size:.85em;color:#555;margin-top:4px}
+    </style></head><body><h1>Validation Tracking Report - Scenario B - Medium validation scenario</h1>
+<p class='sub'>Synthetic validation harness (seed = 142).</p>
+<div class='disc'>All entities and relationships are synthetic and abstract. Outputs are indicators for expert human review only - not proof of misconduct, undisclosed conflicts of interest, hidden funding, or any wrongdoing.</div>
+<h2>1. Network summary</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Quantity</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total nodes</td>
+      <td>203</td>
+    </tr>
+    <tr>
+      <td>Total edges</td>
+      <td>340</td>
+    </tr>
+    <tr>
+      <td>Node classes</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Relationship types</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Seeded proxy paths</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>Candidate paths</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>False-friend entities</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>True-alias groups</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Negative-control subgraphs</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>Weak-signal chains</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+<p class='note'>Triage threshold: <b>60.0 / 100</b>. Scores are triage indicators for expert review only.</p>
+<h2>2. Seeded ground-truth proxy paths</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Path ID</th>
+      <th>Node sequence</th>
+      <th>Relationship types</th>
+      <th>Grades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GT_PATH_000</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Proxy_000 -&gt; Campaign_000</td>
+      <td>funds -&gt; partners_with -&gt; hosts</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_001</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Event_001 -&gt; Proxy_001 -&gt; Report_001</td>
+      <td>funds -&gt; hosts -&gt; speaks_at -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_002</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Proxy_002 -&gt; Campaign_002</td>
+      <td>funds -&gt; partners_with -&gt; amplifies</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_003</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Event_003 -&gt; Report_003</td>
+      <td>funds -&gt; hosts -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_004</td>
+      <td>Funder_004 -&gt; Intermediary_004 -&gt; Proxy_004 -&gt; Campaign_004</td>
+      <td>funds -&gt; partners_with -&gt; hosts</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_005</td>
+      <td>Funder_005 -&gt; Intermediary_005 -&gt; Event_005 -&gt; Proxy_005 -&gt; Report_005</td>
+      <td>funds -&gt; hosts -&gt; speaks_at -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_006</td>
+      <td>Funder_006 -&gt; Intermediary_006 -&gt; Proxy_006 -&gt; Campaign_006</td>
+      <td>funds -&gt; partners_with -&gt; amplifies</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_007</td>
+      <td>Funder_007 -&gt; Intermediary_007 -&gt; Event_007 -&gt; Report_007</td>
+      <td>funds -&gt; hosts -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_008</td>
+      <td>Funder_008 -&gt; Intermediary_008 -&gt; Proxy_008 -&gt; Campaign_008</td>
+      <td>funds -&gt; partners_with -&gt; hosts</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_009</td>
+      <td>Funder_009 -&gt; Intermediary_009 -&gt; Event_009 -&gt; Proxy_009 -&gt; Report_009</td>
+      <td>funds -&gt; hosts -&gt; speaks_at -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3 -&gt; 3</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_010</td>
+      <td>Funder_010 -&gt; Intermediary_010 -&gt; Proxy_010 -&gt; Campaign_010</td>
+      <td>funds -&gt; partners_with -&gt; amplifies</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_011</td>
+      <td>Funder_011 -&gt; Intermediary_011 -&gt; Event_011 -&gt; Report_011</td>
+      <td>funds -&gt; hosts -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+    </tr>
+  </tbody>
+</table>
+<h2>3. Recovered candidate paths (true positives)</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ID</th>
+      <th>Node sequence</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GT_PATH_000</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Proxy_000 -&gt; Campaign_000</td>
+      <td>67.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_004</td>
+      <td>Funder_004 -&gt; Intermediary_004 -&gt; Proxy_004 -&gt; Campaign_004</td>
+      <td>67.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_007</td>
+      <td>Funder_007 -&gt; Intermediary_007 -&gt; Event_007 -&gt; Report_007</td>
+      <td>67.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_008</td>
+      <td>Funder_008 -&gt; Intermediary_008 -&gt; Proxy_008 -&gt; Campaign_008</td>
+      <td>67.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_003</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Event_003 -&gt; Report_003</td>
+      <td>67.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_011</td>
+      <td>Funder_011 -&gt; Intermediary_011 -&gt; Event_011 -&gt; Report_011</td>
+      <td>67.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_005</td>
+      <td>Funder_005 -&gt; Intermediary_005 -&gt; Event_005 -&gt; Proxy_005 -&gt; Report_005</td>
+      <td>65.78</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_009</td>
+      <td>Funder_009 -&gt; Intermediary_009 -&gt; Event_009 -&gt; Proxy_009 -&gt; Report_009</td>
+      <td>65.78</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_001</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Event_001 -&gt; Proxy_001 -&gt; Report_001</td>
+      <td>65.78</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_002</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Proxy_002 -&gt; Campaign_002</td>
+      <td>63.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_010</td>
+      <td>Funder_010 -&gt; Intermediary_010 -&gt; Proxy_010 -&gt; Campaign_010</td>
+      <td>63.80</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_006</td>
+      <td>Funder_006 -&gt; Intermediary_006 -&gt; Proxy_006 -&gt; Campaign_006</td>
+      <td>63.80</td>
+    </tr>
+  </tbody>
+</table>
+<p class='note'>Path-recovery recall <b>1.0</b>; precision <b>0.4138</b>.</p>
+<h2>4. Missed paths</h2>
+<p>None - all seeded proxy paths were recovered.</p>
+<h2>5. False-positive paths</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Candidate ID</th>
+      <th>Node sequence</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CAND_0013</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_L007</td>
+      <td>69.45</td>
+    </tr>
+    <tr>
+      <td>CAND_0018</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_WC02</td>
+      <td>66.45</td>
+    </tr>
+    <tr>
+      <td>CAND_0025</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Campaign_WC04</td>
+      <td>66.45</td>
+    </tr>
+    <tr>
+      <td>CAND_0004</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_L005</td>
+      <td>66.45</td>
+    </tr>
+    <tr>
+      <td>CAND_0014</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_EC06</td>
+      <td>64.20</td>
+    </tr>
+    <tr>
+      <td>CAND_0016</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_008</td>
+      <td>61.70</td>
+    </tr>
+    <tr>
+      <td>CAND_0042</td>
+      <td>Funder_L001 -&gt; Intermediary_L001 -&gt; Proxy_L001 -&gt; Campaign_L001</td>
+      <td>61.30</td>
+    </tr>
+    <tr>
+      <td>CAND_0028</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Proxy_005 -&gt; Report_005</td>
+      <td>61.30</td>
+    </tr>
+    <tr>
+      <td>CAND_0019</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Proxy_004 -&gt; Campaign_004</td>
+      <td>61.30</td>
+    </tr>
+    <tr>
+      <td>CAND_0044</td>
+      <td>Funder_L003 -&gt; Intermediary_L003 -&gt; Proxy_L003 -&gt; Campaign_L003</td>
+      <td>61.30</td>
+    </tr>
+    <tr>
+      <td>CAND_0048</td>
+      <td>Funder_L007 -&gt; Intermediary_L007 -&gt; Proxy_L007 -&gt; Campaign_L007</td>
+      <td>61.30</td>
+    </tr>
+    <tr>
+      <td>CAND_0046</td>
+      <td>Funder_L005 -&gt; Intermediary_L005 -&gt; Proxy_L005 -&gt; Campaign_L005</td>
+      <td>61.30</td>
+    </tr>
+    <tr>
+      <td>CAND_0003</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_EC04</td>
+      <td>61.20</td>
+    </tr>
+    <tr>
+      <td>CAND_0022</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_L001</td>
+      <td>61.20</td>
+    </tr>
+    <tr>
+      <td>CAND_0008</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_010</td>
+      <td>60.70</td>
+    </tr>
+    <tr>
+      <td>CAND_0012</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_EC02</td>
+      <td>60.70</td>
+    </tr>
+    <tr>
+      <td>CAND_0024</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_EC04</td>
+      <td>60.70</td>
+    </tr>
+  </tbody>
+</table><p class='note'>Passed to human review as possible leads only. 13 contain a weak (grade &le; 2) hop; 4 consist entirely of documentary-grade (&ge; 3) hops and require full manual verification.</p>
+<h2>6. Negative-control results (isolated and embedded)</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Control ID</th>
+      <th>Type</th>
+      <th>Nodes</th>
+      <th>Score</th>
+      <th>Flagged</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NC_000</td>
+      <td>isolated</td>
+      <td>IndependentControl_000; Event_Ind_000</td>
+      <td>19.10</td>
+      <td>0</td>
+      <td>score 19.10 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_001</td>
+      <td>isolated</td>
+      <td>IndependentControl_001; Report_Ind_001</td>
+      <td>7.60</td>
+      <td>0</td>
+      <td>score 7.60 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_002</td>
+      <td>isolated</td>
+      <td>IndependentControl_002; SocialAccount_Ind_002; MediaOutlet_Ind_002</td>
+      <td>12.95</td>
+      <td>0</td>
+      <td>score 12.95 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_003</td>
+      <td>isolated</td>
+      <td>IndependentControl_003; Event_Ind_003</td>
+      <td>19.10</td>
+      <td>0</td>
+      <td>score 19.10 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_004</td>
+      <td>isolated</td>
+      <td>IndependentControl_004; Report_Ind_004</td>
+      <td>7.60</td>
+      <td>0</td>
+      <td>score 7.60 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_005</td>
+      <td>isolated</td>
+      <td>IndependentControl_005; SocialAccount_Ind_005; MediaOutlet_Ind_005</td>
+      <td>12.95</td>
+      <td>0</td>
+      <td>score 12.95 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_006</td>
+      <td>isolated</td>
+      <td>IndependentControl_006; Event_Ind_006</td>
+      <td>19.10</td>
+      <td>0</td>
+      <td>score 19.10 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_007</td>
+      <td>isolated</td>
+      <td>IndependentControl_007; Report_Ind_007</td>
+      <td>7.60</td>
+      <td>0</td>
+      <td>score 7.60 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_008</td>
+      <td>isolated</td>
+      <td>IndependentControl_008; SocialAccount_Ind_008; MediaOutlet_Ind_008</td>
+      <td>12.95</td>
+      <td>0</td>
+      <td>score 12.95 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_009</td>
+      <td>isolated</td>
+      <td>IndependentControl_009; Event_Ind_009</td>
+      <td>19.10</td>
+      <td>0</td>
+      <td>score 19.10 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_010</td>
+      <td>isolated</td>
+      <td>IndependentControl_010; Report_Ind_010</td>
+      <td>7.60</td>
+      <td>0</td>
+      <td>score 7.60 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>NC_011</td>
+      <td>isolated</td>
+      <td>IndependentControl_011; SocialAccount_Ind_011; MediaOutlet_Ind_011</td>
+      <td>12.95</td>
+      <td>0</td>
+      <td>score 12.95 is below the threshold of 60.0; this isolated control (disconnected from the seeded structure) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>EC_01</td>
+      <td>embedded</td>
+      <td>EmbeddedControl_01; Report_EC01</td>
+      <td>19.10</td>
+      <td>0</td>
+      <td>score 19.10 is below the threshold of 60.0; this embedded control (weakly attached to the active graph, reachable from a funder) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>EC_02</td>
+      <td>embedded</td>
+      <td>EmbeddedControl_02; Campaign_EC02</td>
+      <td>30.60</td>
+      <td>0</td>
+      <td>score 30.60 is below the threshold of 60.0; this embedded control (weakly attached to the active graph, reachable from a funder) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>EC_03</td>
+      <td>embedded</td>
+      <td>EmbeddedControl_03; Report_EC03</td>
+      <td>19.10</td>
+      <td>0</td>
+      <td>score 19.10 is below the threshold of 60.0; this embedded control (weakly attached to the active graph, reachable from a funder) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>EC_04</td>
+      <td>embedded</td>
+      <td>EmbeddedControl_04; Campaign_EC04</td>
+      <td>30.60</td>
+      <td>0</td>
+      <td>score 30.60 is below the threshold of 60.0; this embedded control (weakly attached to the active graph, reachable from a funder) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>EC_05</td>
+      <td>embedded</td>
+      <td>EmbeddedControl_05; Report_EC05</td>
+      <td>19.10</td>
+      <td>0</td>
+      <td>score 19.10 is below the threshold of 60.0; this embedded control (weakly attached to the active graph, reachable from a funder) is correctly not flagged</td>
+    </tr>
+    <tr>
+      <td>EC_06</td>
+      <td>embedded</td>
+      <td>EmbeddedControl_06; Campaign_EC06</td>
+      <td>30.60</td>
+      <td>0</td>
+      <td>score 30.60 is below the threshold of 60.0; this embedded control (weakly attached to the active graph, reachable from a funder) is correctly not flagged</td>
+    </tr>
+  </tbody>
+</table>
+<p class='note'>Isolated-control specificity <b>1.0</b>; embedded-control specificity <b>1.0</b> over 6 funder-reachable candidate paths (max candidate score 51.3).</p>
+<h2>7. Entity-resolution decisions (three-zone rule)</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Surface A</th>
+      <th>Surface B</th>
+      <th>Type</th>
+      <th>Sim.</th>
+      <th>Zone</th>
+      <th>Outcome</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Health_Alliance_Alpha</td>
+      <td>Health_Alliance_Beta</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Public_Choice_Branch</td>
+      <td>Public_Choice_Branches</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Civic_Forum_Alpha</td>
+      <td>Civic_Forum_Beta</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Policy_Council_Branch</td>
+      <td>Policy_Council_Branches</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Wellness_League_Alpha</td>
+      <td>Wellness_League_Beta</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Reform_Circle_Branch</td>
+      <td>Reform_Circle_Branches</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Liberty_Board_Alpha</td>
+      <td>Liberty_Board_Beta</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Standards_Coalition_Branch</td>
+      <td>Standards_Coalition_Branches</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Data_Institute_Alpha</td>
+      <td>Data_Institute_Beta</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Citizen_Trust_Branch</td>
+      <td>Citizen_Trust_Branches</td>
+      <td>false_friend</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_distinct_pair</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a distinct (false-friend) pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Research_Society_Gamma</td>
+      <td>Research_Society_Gamma_Group</td>
+      <td>true_alias</td>
+      <td>0.75</td>
+      <td>auto_merge</td>
+      <td>correct_auto_merge</td>
+      <td>token similarity 0.75 reaches the auto-merge threshold; the aliases are linked (correct_auto_merge).</td>
+    </tr>
+    <tr>
+      <td>Market_Union_Delta</td>
+      <td>Market_Union_Delta_Group</td>
+      <td>true_alias</td>
+      <td>0.75</td>
+      <td>auto_merge</td>
+      <td>correct_auto_merge</td>
+      <td>token similarity 0.75 reaches the auto-merge threshold; the aliases are linked (correct_auto_merge).</td>
+    </tr>
+    <tr>
+      <td>Consumer_Partnership_Sigma</td>
+      <td>Consumer_Partnership_Sigma_Group</td>
+      <td>true_alias</td>
+      <td>0.75</td>
+      <td>auto_merge</td>
+      <td>correct_auto_merge</td>
+      <td>token similarity 0.75 reaches the auto-merge threshold; the aliases are linked (correct_auto_merge).</td>
+    </tr>
+    <tr>
+      <td>Global_Assembly_Omega</td>
+      <td>Global_Assembly_Omega_Group</td>
+      <td>true_alias</td>
+      <td>0.75</td>
+      <td>auto_merge</td>
+      <td>correct_auto_merge</td>
+      <td>token similarity 0.75 reaches the auto-merge threshold; the aliases are linked (correct_auto_merge).</td>
+    </tr>
+    <tr>
+      <td>Regional_Foundation_Theta</td>
+      <td>Regional_Foundation_Theta_Group</td>
+      <td>true_alias</td>
+      <td>0.75</td>
+      <td>auto_merge</td>
+      <td>correct_auto_merge</td>
+      <td>token similarity 0.75 reaches the auto-merge threshold; the aliases are linked (correct_auto_merge).</td>
+    </tr>
+    <tr>
+      <td>National_Choice_Lambda</td>
+      <td>National_Choice_Lambda_Group</td>
+      <td>true_alias</td>
+      <td>0.75</td>
+      <td>auto_merge</td>
+      <td>correct_auto_merge</td>
+      <td>token similarity 0.75 reaches the auto-merge threshold; the aliases are linked (correct_auto_merge).</td>
+    </tr>
+    <tr>
+      <td>Research_Society_Gamma</td>
+      <td>Gamma_Research_Network</td>
+      <td>true_alias</td>
+      <td>0.50</td>
+      <td>refer_to_human</td>
+      <td>referred_true_alias</td>
+      <td>token similarity 0.50 falls in the ambiguous band, so the pair - a true-alias pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+    <tr>
+      <td>Research_Society_Gamma_Group</td>
+      <td>Gamma_Research_Network</td>
+      <td>true_alias</td>
+      <td>0.40</td>
+      <td>refer_to_human</td>
+      <td>referred_true_alias</td>
+      <td>token similarity 0.40 falls in the ambiguous band, so the pair - a true-alias pair - is referred to the human review queue rather than decided automatically (referred).</td>
+    </tr>
+  </tbody>
+</table>
+<p class='note'>Auto-merge precision <b>1.0</b>; auto-merge recall <b>0.75</b>; potential recall if all referred true-alias pairs are correctly confirmed <b>1.0</b> (assumption, not observed human performance); false merges <b>0</b>; referral queue <b>12</b> pairs.</p>
+<h2>7b. Robustness checks</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Check</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Weak-chain candidates entering high-priority review</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>Weak-chain candidates flagged (gate removed)</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>Max weak-chain score (gated)</td>
+      <td>38.3</td>
+    </tr>
+    <tr>
+      <td>Max weak-chain score (gate removed)</td>
+      <td>42.8</td>
+    </tr>
+    <tr>
+      <td>Max attainable weak-signal-only score (analytic, gate removed)</td>
+      <td>44.8</td>
+    </tr>
+  </tbody>
+</table>
+<p class='note'>Weight-perturbation stability (200 draws, +/-20%): Spearman rho min/median <b>0.9812 / 0.9963</b>; Kendall tau-b min/median <b>0.9286 / 0.9819</b>. Ties use average ranks for Spearman and tau-b correction for Kendall.</p>
+<h2>7c. Connected active-network noise challenge</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Check</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Connected active-noise edges</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Candidate paths before -&gt; after active noise</td>
+      <td>32 -&gt; 54</td>
+    </tr>
+    <tr>
+      <td>Candidate paths using active noise</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>High-priority active-noise false positives</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>Candidate cap reached</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<h2>8. Path-by-path audit trail</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ID</th>
+      <th>Node sequence</th>
+      <th>Edge sequence</th>
+      <th>Grades</th>
+      <th>Provenance</th>
+      <th>Score</th>
+      <th>Flagged</th>
+      <th>Class</th>
+      <th>Why</th>
+      <th>Recommended action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GT_PATH_000</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Proxy_000 -&gt; Campaign_000</td>
+      <td>funds -&gt; partners_with -&gt; hosts</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>67.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 67.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_004</td>
+      <td>Funder_004 -&gt; Intermediary_004 -&gt; Proxy_004 -&gt; Campaign_004</td>
+      <td>funds -&gt; partners_with -&gt; hosts</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>67.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 67.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_007</td>
+      <td>Funder_007 -&gt; Intermediary_007 -&gt; Event_007 -&gt; Report_007</td>
+      <td>funds -&gt; hosts -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>67.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 67.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_008</td>
+      <td>Funder_008 -&gt; Intermediary_008 -&gt; Proxy_008 -&gt; Campaign_008</td>
+      <td>funds -&gt; partners_with -&gt; hosts</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>67.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 67.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_003</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Event_003 -&gt; Report_003</td>
+      <td>funds -&gt; hosts -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>67.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 67.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_011</td>
+      <td>Funder_011 -&gt; Intermediary_011 -&gt; Event_011 -&gt; Report_011</td>
+      <td>funds -&gt; hosts -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>67.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 67.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_005</td>
+      <td>Funder_005 -&gt; Intermediary_005 -&gt; Event_005 -&gt; Proxy_005 -&gt; Report_005</td>
+      <td>funds -&gt; hosts -&gt; speaks_at -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>65.78</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 65.78 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.25; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_009</td>
+      <td>Funder_009 -&gt; Intermediary_009 -&gt; Event_009 -&gt; Proxy_009 -&gt; Report_009</td>
+      <td>funds -&gt; hosts -&gt; speaks_at -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>65.78</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 65.78 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.25; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_001</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Event_001 -&gt; Proxy_001 -&gt; Report_001</td>
+      <td>funds -&gt; hosts -&gt; speaks_at -&gt; publishes</td>
+      <td>4 -&gt; 3 -&gt; 3 -&gt; 3</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>65.78</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 65.78 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.25; documentary continuity maintained across all hops.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_002</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Proxy_002 -&gt; Campaign_002</td>
+      <td>funds -&gt; partners_with -&gt; amplifies</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>63.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 63.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_010</td>
+      <td>Funder_010 -&gt; Intermediary_010 -&gt; Proxy_010 -&gt; Campaign_010</td>
+      <td>funds -&gt; partners_with -&gt; amplifies</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>63.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 63.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>GT_PATH_006</td>
+      <td>Funder_006 -&gt; Intermediary_006 -&gt; Proxy_006 -&gt; Campaign_006</td>
+      <td>funds -&gt; partners_with -&gt; amplifies</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+      <td>ground-truth -&gt; ground-truth -&gt; ground-truth</td>
+      <td>63.80</td>
+      <td>1</td>
+      <td>true_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 63.80 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.</td>
+    </tr>
+    <tr>
+      <td>CAND_0013</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_L007</td>
+      <td>funds -&gt; partners_with</td>
+      <td>4 -&gt; 3</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>69.45</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 69.45 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.</td>
+      <td>Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.</td>
+    </tr>
+    <tr>
+      <td>CAND_0018</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_WC02</td>
+      <td>funds -&gt; partners_with</td>
+      <td>4 -&gt; 3</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>66.45</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 66.45 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.</td>
+      <td>Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.</td>
+    </tr>
+    <tr>
+      <td>CAND_0025</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Campaign_WC04</td>
+      <td>funds -&gt; partners_with</td>
+      <td>4 -&gt; 3</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>66.45</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 66.45 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.</td>
+      <td>Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.</td>
+    </tr>
+    <tr>
+      <td>CAND_0004</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_L005</td>
+      <td>funds -&gt; partners_with</td>
+      <td>4 -&gt; 3</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>66.45</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 66.45 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.</td>
+      <td>Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.</td>
+    </tr>
+    <tr>
+      <td>CAND_0014</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_EC06</td>
+      <td>funds -&gt; amplifies</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>64.20</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 64.20 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0016</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_008</td>
+      <td>funds -&gt; shares_link</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>61.70</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.70 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0042</td>
+      <td>Funder_L001 -&gt; Intermediary_L001 -&gt; Proxy_L001 -&gt; Campaign_L001</td>
+      <td>funds -&gt; partners_with -&gt; shares_link</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor</td>
+      <td>61.30</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.30 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0028</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Proxy_005 -&gt; Report_005</td>
+      <td>funds -&gt; shares_link -&gt; publishes</td>
+      <td>4 -&gt; 2 -&gt; 3</td>
+      <td>ground-truth -&gt; distractor -&gt; ground-truth</td>
+      <td>61.30</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.30 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0019</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Proxy_004 -&gt; Campaign_004</td>
+      <td>funds -&gt; shares_link -&gt; hosts</td>
+      <td>4 -&gt; 2 -&gt; 3</td>
+      <td>ground-truth -&gt; distractor -&gt; ground-truth</td>
+      <td>61.30</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.30 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0044</td>
+      <td>Funder_L003 -&gt; Intermediary_L003 -&gt; Proxy_L003 -&gt; Campaign_L003</td>
+      <td>funds -&gt; partners_with -&gt; shares_link</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor</td>
+      <td>61.30</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.30 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0048</td>
+      <td>Funder_L007 -&gt; Intermediary_L007 -&gt; Proxy_L007 -&gt; Campaign_L007</td>
+      <td>funds -&gt; partners_with -&gt; shares_link</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor</td>
+      <td>61.30</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.30 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0046</td>
+      <td>Funder_L005 -&gt; Intermediary_L005 -&gt; Proxy_L005 -&gt; Campaign_L005</td>
+      <td>funds -&gt; partners_with -&gt; shares_link</td>
+      <td>4 -&gt; 3 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor</td>
+      <td>61.30</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.30 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0003</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_EC04</td>
+      <td>funds -&gt; amplifies</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>61.20</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.20 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0022</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_L001</td>
+      <td>funds -&gt; amplifies</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>61.20</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 61.20 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0008</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_010</td>
+      <td>funds -&gt; uses_similar_language</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>60.70</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 60.70 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0012</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_EC02</td>
+      <td>funds -&gt; uses_similar_language</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>60.70</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 60.70 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0024</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_EC04</td>
+      <td>funds -&gt; uses_similar_language</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>60.70</td>
+      <td>1</td>
+      <td>false_positive</td>
+      <td>HIGH-PRIORITY REVIEW (raw score 60.70 &gt;= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.</td>
+    </tr>
+    <tr>
+      <td>CAND_0005</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Proxy_001 -&gt; Report_001</td>
+      <td>funds -&gt; shares_link -&gt; publishes</td>
+      <td>4 -&gt; 2 -&gt; 3</td>
+      <td>ground-truth -&gt; distractor -&gt; ground-truth</td>
+      <td>59.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 59.30 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0010</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Proxy_002 -&gt; Campaign_002</td>
+      <td>funds -&gt; shares_link -&gt; amplifies</td>
+      <td>4 -&gt; 2 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor -&gt; ground-truth</td>
+      <td>59.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 59.30 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 2.67; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0027</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Campaign_EC02</td>
+      <td>funds -&gt; shares_link</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>58.70</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 58.70 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0002</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_006</td>
+      <td>funds -&gt; shares_link</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>58.70</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 58.70 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0020</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_010</td>
+      <td>funds -&gt; shares_link</td>
+      <td>4 -&gt; 2</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>58.70</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 58.70 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0029</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; Campaign_008</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>53.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 53.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0009</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; EmbeddedControl_02 -&gt; Campaign_EC02</td>
+      <td>funds -&gt; co_occurs_with -&gt; shares_link</td>
+      <td>4 -&gt; 1 -&gt; 2</td>
+      <td>ground-truth -&gt; negative-control -&gt; negative-control</td>
+      <td>51.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 51.30 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.33; drops to a grade-0/1 hop and is ineligible for high-priority review; passes through an embedded control actor connected only by weak co-occurrence.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0030</td>
+      <td>Funder_003 -&gt; Intermediary_003 -&gt; EmbeddedControl_04 -&gt; Campaign_EC04</td>
+      <td>funds -&gt; co_occurs_with -&gt; shares_link</td>
+      <td>4 -&gt; 1 -&gt; 2</td>
+      <td>ground-truth -&gt; negative-control -&gt; negative-control</td>
+      <td>51.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 51.30 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.33; drops to a grade-0/1 hop and is ineligible for high-priority review; passes through an embedded control actor connected only by weak co-occurrence.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0034</td>
+      <td>Funder_005 -&gt; Intermediary_005 -&gt; EmbeddedControl_06 -&gt; Campaign_EC06</td>
+      <td>funds -&gt; co_occurs_with -&gt; shares_link</td>
+      <td>4 -&gt; 1 -&gt; 2</td>
+      <td>ground-truth -&gt; negative-control -&gt; negative-control</td>
+      <td>51.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 51.30 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.33; drops to a grade-0/1 hop and is ineligible for high-priority review; passes through an embedded control actor connected only by weak co-occurrence.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0047</td>
+      <td>Funder_L006 -&gt; Intermediary_L006 -&gt; Report_L006</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>distractor -&gt; distractor</td>
+      <td>50.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0023</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; Campaign_006</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>50.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0007</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; Campaign_002</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>50.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0015</td>
+      <td>Funder_001 -&gt; Intermediary_001 -&gt; Campaign_004</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>ground-truth -&gt; distractor</td>
+      <td>50.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0045</td>
+      <td>Funder_L004 -&gt; Intermediary_L004 -&gt; Report_L004</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>distractor -&gt; distractor</td>
+      <td>50.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0041</td>
+      <td>Funder_L000 -&gt; Intermediary_L000 -&gt; Report_L000</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>distractor -&gt; distractor</td>
+      <td>50.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0043</td>
+      <td>Funder_L002 -&gt; Intermediary_L002 -&gt; Report_L002</td>
+      <td>funds -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1</td>
+      <td>distractor -&gt; distractor</td>
+      <td>50.95</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0001</td>
+      <td>Funder_000 -&gt; Intermediary_000 -&gt; EmbeddedControl_01 -&gt; Report_EC01</td>
+      <td>funds -&gt; co_occurs_with -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1 -&gt; 1</td>
+      <td>ground-truth -&gt; negative-control -&gt; negative-control</td>
+      <td>47.20</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 47.20 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.00; drops to a grade-0/1 hop and is ineligible for high-priority review; passes through an embedded control actor connected only by weak co-occurrence.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0021</td>
+      <td>Funder_002 -&gt; Intermediary_002 -&gt; EmbeddedControl_03 -&gt; Report_EC03</td>
+      <td>funds -&gt; co_occurs_with -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1 -&gt; 1</td>
+      <td>ground-truth -&gt; negative-control -&gt; negative-control</td>
+      <td>47.20</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 47.20 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.00; drops to a grade-0/1 hop and is ineligible for high-priority review; passes through an embedded control actor connected only by weak co-occurrence.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0032</td>
+      <td>Funder_004 -&gt; Intermediary_004 -&gt; EmbeddedControl_05 -&gt; Report_EC05</td>
+      <td>funds -&gt; co_occurs_with -&gt; co_occurs_with</td>
+      <td>4 -&gt; 1 -&gt; 1</td>
+      <td>ground-truth -&gt; negative-control -&gt; negative-control</td>
+      <td>47.20</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 47.20 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.00; drops to a grade-0/1 hop and is ineligible for high-priority review; passes through an embedded control actor connected only by weak co-occurrence.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0050</td>
+      <td>Funder_W02 -&gt; SocialAccount_WC02 -&gt; MediaOutlet_WC02 -&gt; Campaign_WC02</td>
+      <td>shares_link -&gt; amplifies -&gt; uses_similar_language</td>
+      <td>2 -&gt; 2 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor</td>
+      <td>38.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 38.30 is below threshold 60.0: no direct funding edge; weakest hop grade 2, mean grade 2.00; drops to a grade-2 shared-link/amplification hop; weak-signal-only chain (RQ5): no documentary hop anywhere.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0052</td>
+      <td>Funder_W04 -&gt; SocialAccount_WC04 -&gt; MediaOutlet_WC04 -&gt; Campaign_WC04</td>
+      <td>shares_link -&gt; amplifies -&gt; uses_similar_language</td>
+      <td>2 -&gt; 2 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor</td>
+      <td>38.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 38.30 is below threshold 60.0: no direct funding edge; weakest hop grade 2, mean grade 2.00; drops to a grade-2 shared-link/amplification hop; weak-signal-only chain (RQ5): no documentary hop anywhere.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0054</td>
+      <td>Funder_W06 -&gt; SocialAccount_WC06 -&gt; MediaOutlet_WC06 -&gt; Campaign_WC06</td>
+      <td>shares_link -&gt; amplifies -&gt; uses_similar_language</td>
+      <td>2 -&gt; 2 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor</td>
+      <td>38.30</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 38.30 is below threshold 60.0: no direct funding edge; weakest hop grade 2, mean grade 2.00; drops to a grade-2 shared-link/amplification hop; weak-signal-only chain (RQ5): no documentary hop anywhere.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0049</td>
+      <td>Funder_W01 -&gt; SocialAccount_WC01 -&gt; MediaOutlet_WC01 -&gt; Proxy_WC01 -&gt; Report_WC01</td>
+      <td>co_occurs_with -&gt; shares_link -&gt; amplifies -&gt; uses_similar_language</td>
+      <td>1 -&gt; 2 -&gt; 2 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor -&gt; distractor</td>
+      <td>27.77</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 27.77 is below threshold 60.0: no direct funding edge; weakest hop grade 1, mean grade 1.75; drops to a grade-0/1 hop and is ineligible for high-priority review; weak-signal-only chain (RQ5): no documentary hop anywhere.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0051</td>
+      <td>Funder_W03 -&gt; SocialAccount_WC03 -&gt; MediaOutlet_WC03 -&gt; Proxy_WC03 -&gt; Report_WC03</td>
+      <td>co_occurs_with -&gt; shares_link -&gt; amplifies -&gt; uses_similar_language</td>
+      <td>1 -&gt; 2 -&gt; 2 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor -&gt; distractor</td>
+      <td>27.77</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 27.77 is below threshold 60.0: no direct funding edge; weakest hop grade 1, mean grade 1.75; drops to a grade-0/1 hop and is ineligible for high-priority review; weak-signal-only chain (RQ5): no documentary hop anywhere.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+    <tr>
+      <td>CAND_0053</td>
+      <td>Funder_W05 -&gt; SocialAccount_WC05 -&gt; MediaOutlet_WC05 -&gt; Proxy_WC05 -&gt; Report_WC05</td>
+      <td>co_occurs_with -&gt; shares_link -&gt; amplifies -&gt; uses_similar_language</td>
+      <td>1 -&gt; 2 -&gt; 2 -&gt; 2</td>
+      <td>distractor -&gt; distractor -&gt; distractor -&gt; distractor</td>
+      <td>27.77</td>
+      <td>0</td>
+      <td>true_negative</td>
+      <td>not high priority: raw score 27.77 is below threshold 60.0: no direct funding edge; weakest hop grade 1, mean grade 1.75; drops to a grade-0/1 hop and is ineligible for high-priority review; weak-signal-only chain (RQ5): no documentary hop anywhere.</td>
+      <td>No review action required; retain in the audit log for completeness.</td>
+    </tr>
+  </tbody>
+</table>
+<h2>9. Visual validation</h2>
+<figure><img src='workflow_diagram.png' alt='Figure 1. Study design: public signals -&gt; synthetic validation -&gt; human review -&gt; (future) governed pilot.'><figcaption>Figure 1. Study design: public signals -&gt; synthetic validation -&gt; human review -&gt; (future) governed pilot.</figcaption></figure>
+<figure><img src='synthetic_network_full.png' alt='Figure 2. Full synthetic network (node classes by colour and shape).'><figcaption>Figure 2. Full synthetic network (node classes by colour and shape).</figcaption></figure>
+<figure><img src='synthetic_network_highlighted_paths.png' alt='Figure 3. Seeded proxy-path recovery (non-path nodes faded).'><figcaption>Figure 3. Seeded proxy-path recovery (non-path nodes faded).</figcaption></figure>
+<figure><img src='synthetic_network_negative_controls.png' alt='Figure 4. Negative-control subgraphs: isolated and embedded controls.'><figcaption>Figure 4. Negative-control subgraphs: isolated and embedded controls.</figcaption></figure>
+<figure><img src='synthetic_network_entity_resolution.png' alt='Figure 5. Entity-resolution test (auto-merge / refer / keep-separate).'><figcaption>Figure 5. Entity-resolution test (auto-merge / refer / keep-separate).</figcaption></figure>
+<figure><img src='triage_score_distribution.png' alt='Figure 6. Review-priority score distribution by group.'><figcaption>Figure 6. Review-priority score distribution by group.</figcaption></figure>
+<figure><img src='score_band_truth_summary.png' alt='Figure 7. Descriptive score-band truth summary (planted-positive proportion by score bucket).'><figcaption>Figure 7. Descriptive score-band truth summary (planted-positive proportion by score bucket).</figcaption></figure>
+<figure><img src='robustness_threshold_sweep.png' alt='Figure 8. Robustness: threshold sweep and weight-perturbation stability.'><figcaption>Figure 8. Robustness: threshold sweep and weight-perturbation stability.</figcaption></figure>
+<h2>10. Interpretation statement</h2>
+<div class='disc'>This report is a transparent, path-by-path audit trail. The framework is designed to prioritise manual expert review, not to automate accusation or attribution. All entities and relationships are synthetic and abstract. Outputs are indicators for expert human review only - not proof of misconduct, undisclosed conflicts of interest, hidden funding, or any wrongdoing.</div></body></html>

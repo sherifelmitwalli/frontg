@@ -1,0 +1,10 @@
+﻿node_modules/
+__pycache__/
+*.pyc
+*.docx
+*.pdf
+~$*
+.~lock.*
+render_*/
+tmp_test/
+render_tmp/

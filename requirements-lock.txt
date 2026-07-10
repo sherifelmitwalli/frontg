@@ -1,0 +1,6 @@
+# Exact versions used to generate the archived outputs (see requirements.txt for floors).
+numpy==2.2.6
+pandas==2.3.3
+networkx==3.4.2
+matplotlib==3.10.9
+scipy==1.15.3

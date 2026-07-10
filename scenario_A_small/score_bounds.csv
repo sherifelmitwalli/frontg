@@ -1,0 +1,6 @@
+family,constraint,max_score_gated,max_score_ungated,edge_type_sequence_gated,evidence_grade_sequence_gated,edge_type_sequence_ungated,evidence_grade_sequence_ungated,triage_threshold,score_threshold_crossed_gated,score_threshold_crossed_ungated,eligible_for_high_priority,high_priority_review_gated
+weak_only_no_funding,No funding edge; every hop grade <= 2,38.3,44.8,shares_link -> uses_similar_language -> amplifies,2 -> 2 -> 2,shares_link -> shares_link -> uses_similar_language -> amplifies,2 -> 2 -> 2 -> 2,60.0,False,False,False,False
+funding_with_grade0_floor,Funding edge present; weakest hop grade 0,51.7,56.4,no_known_link -> funds -> funds -> funds,0 -> 4 -> 4 -> 4,no_known_link -> uses_similar_language -> amplifies -> funds,0 -> 2 -> 2 -> 4,60.0,False,False,False,False
+funding_with_grade1_floor,Funding edge present; weakest hop grade 1,57.7,62.28,co_occurs_with -> funds -> funds,1 -> 4 -> 4,co_occurs_with -> shares_link -> amplifies -> funds,1 -> 2 -> 2 -> 4,60.0,False,True,False,False
+funding_with_grade2_floor,Funding edge present; weakest hop grade 2,66.7,70.3,amplifies -> funds -> funds,2 -> 4 -> 4,uses_similar_language -> amplifies -> funds -> funds,2 -> 2 -> 4 -> 4,60.0,True,True,True,True
+fully_documentary_min_grade3,Funding edge present; every hop grade >= 3,75.6,75.6,funds -> funds,4 -> 4,funds -> funds,4 -> 4,60.0,True,True,True,True

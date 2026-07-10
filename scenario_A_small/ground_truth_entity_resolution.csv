@@ -1,0 +1,12 @@
+entity_id,surface_form,canonical_id,is_true_alias,is_false_friend,expected_merge_decision
+ER_FF_01,Health_Alliance_A,CANON_HA_A,False,True,do_not_merge
+ER_FF_02,Health_Alliance_B,CANON_HA_B,False,True,do_not_merge
+ER_FF_03,Public_Choice_Network,CANON_PCN_1,False,True,do_not_merge
+ER_FF_04,Public_Choices_Network,CANON_PCN_2,False,True,do_not_merge
+ER_FF_05,Research_Forum_Alpha,CANON_RF_1,False,True,do_not_merge
+ER_FF_06,Research_Forums_Alpha,CANON_RF_2,False,True,do_not_merge
+ER_AL_01,Intermediary_Gamma,CANON_GAMMA,True,False,merge
+ER_AL_02,Intermediary_Gamma_Group,CANON_GAMMA,True,False,merge
+ER_AL_03,Gamma_Intermediary_Network,CANON_GAMMA,True,False,merge
+ER_AL_04,Campaign_Omega,CANON_OMEGA,True,False,merge
+ER_AL_05,Campaign_Omega_Initiative,CANON_OMEGA,True,False,merge

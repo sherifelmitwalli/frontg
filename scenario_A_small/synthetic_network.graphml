@@ -1,0 +1,706 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="is_active_noise" attr.type="boolean"/>
+<key id="d12" for="edge" attr.name="is_negative_control" attr.type="boolean"/>
+<key id="d11" for="edge" attr.name="is_distractor" attr.type="boolean"/>
+<key id="d10" for="edge" attr.name="is_ground_truth" attr.type="boolean"/>
+<key id="d9" for="edge" attr.name="phase" attr.type="string"/>
+<key id="d8" for="edge" attr.name="evidence_grade" attr.type="long"/>
+<key id="d7" for="edge" attr.name="evidence_snippet" attr.type="string"/>
+<key id="d6" for="edge" attr.name="edge_type" attr.type="string"/>
+<key id="d5" for="node" attr.name="is_independent_control" attr.type="boolean"/>
+<key id="d4" for="node" attr.name="surface_form" attr.type="string"/>
+<key id="d3" for="node" attr.name="canonical_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="node_class" attr.type="string"/>
+<key id="d1" for="graph" attr.name="seed" attr.type="long"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">synthetic_network_small</data>
+<data key="d1">42</data>
+<node id="Funder_01">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_01</data>
+  <data key="d4">Funder_01</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_Alpha">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_Alpha</data>
+  <data key="d4">Intermediary_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_X">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_X</data>
+  <data key="d4">Proxy_X</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_Y">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_Y</data>
+  <data key="d4">Campaign_Y</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_02">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_02</data>
+  <data key="d4">Funder_02</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_Beta">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_Beta</data>
+  <data key="d4">Intermediary_Beta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_C">
+  <data key="d2">Event</data>
+  <data key="d3">Event_C</data>
+  <data key="d4">Event_C</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_Z">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_Z</data>
+  <data key="d4">Proxy_Z</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_Q">
+  <data key="d2">Report</data>
+  <data key="d3">Report_Q</data>
+  <data key="d4">Report_Q</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_03">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_03</data>
+  <data key="d4">Funder_03</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_Gamma">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_Gamma</data>
+  <data key="d4">Intermediary_Gamma</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_W">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_W</data>
+  <data key="d4">Proxy_W</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_V">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_V</data>
+  <data key="d4">Campaign_V</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_Delta">
+  <data key="d2">Intermediary</data>
+  <data key="d3">Intermediary_Delta</data>
+  <data key="d4">Intermediary_Delta</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_D">
+  <data key="d2">Event</data>
+  <data key="d3">Event_D</data>
+  <data key="d4">Event_D</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_R">
+  <data key="d2">Report</data>
+  <data key="d3">Report_R</data>
+  <data key="d4">Report_R</data>
+  <data key="d5">False</data>
+</node>
+<node id="Health_Alliance_A">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_HA_A</data>
+  <data key="d4">Health_Alliance_A</data>
+  <data key="d5">False</data>
+</node>
+<node id="Health_Alliance_B">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_HA_B</data>
+  <data key="d4">Health_Alliance_B</data>
+  <data key="d5">False</data>
+</node>
+<node id="Public_Choice_Network">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_PCN_1</data>
+  <data key="d4">Public_Choice_Network</data>
+  <data key="d5">False</data>
+</node>
+<node id="Public_Choices_Network">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_PCN_2</data>
+  <data key="d4">Public_Choices_Network</data>
+  <data key="d5">False</data>
+</node>
+<node id="Research_Forum_Alpha">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_RF_1</data>
+  <data key="d4">Research_Forum_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Research_Forums_Alpha">
+  <data key="d2">Proxy</data>
+  <data key="d3">CANON_RF_2</data>
+  <data key="d4">Research_Forums_Alpha</data>
+  <data key="d5">False</data>
+</node>
+<node id="Intermediary_Gamma_Group">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_GAMMA</data>
+  <data key="d4">Intermediary_Gamma_Group</data>
+  <data key="d5">False</data>
+</node>
+<node id="Gamma_Intermediary_Network">
+  <data key="d2">Intermediary</data>
+  <data key="d3">CANON_GAMMA</data>
+  <data key="d4">Gamma_Intermediary_Network</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_Omega">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_OMEGA</data>
+  <data key="d4">Campaign_Omega</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_Omega_Initiative">
+  <data key="d2">Campaign</data>
+  <data key="d3">CANON_OMEGA</data>
+  <data key="d4">Campaign_Omega_Initiative</data>
+  <data key="d5">False</data>
+</node>
+<node id="IndependentControl_01">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_01</data>
+  <data key="d4">IndependentControl_01</data>
+  <data key="d5">True</data>
+</node>
+<node id="Event_Ind_01">
+  <data key="d2">Event</data>
+  <data key="d3">Event_Ind_01</data>
+  <data key="d4">Event_Ind_01</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_02">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_02</data>
+  <data key="d4">IndependentControl_02</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_Ind_02">
+  <data key="d2">Report</data>
+  <data key="d3">Report_Ind_02</data>
+  <data key="d4">Report_Ind_02</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_03">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_03</data>
+  <data key="d4">IndependentControl_03</data>
+  <data key="d5">True</data>
+</node>
+<node id="SocialAccount_Ind_03">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_Ind_03</data>
+  <data key="d4">SocialAccount_Ind_03</data>
+  <data key="d5">True</data>
+</node>
+<node id="MediaOutlet_Ind_03">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_Ind_03</data>
+  <data key="d4">MediaOutlet_Ind_03</data>
+  <data key="d5">True</data>
+</node>
+<node id="IndependentControl_04">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">IndependentControl_04</data>
+  <data key="d4">IndependentControl_04</data>
+  <data key="d5">True</data>
+</node>
+<node id="Campaign_Ind_04">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_Ind_04</data>
+  <data key="d4">Campaign_Ind_04</data>
+  <data key="d5">True</data>
+</node>
+<node id="EmbeddedControl_01">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_01</data>
+  <data key="d4">EmbeddedControl_01</data>
+  <data key="d5">True</data>
+</node>
+<node id="Report_EC01">
+  <data key="d2">Report</data>
+  <data key="d3">Report_EC01</data>
+  <data key="d4">Report_EC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="EmbeddedControl_02">
+  <data key="d2">IndependentControl</data>
+  <data key="d3">EmbeddedControl_02</data>
+  <data key="d4">EmbeddedControl_02</data>
+  <data key="d5">True</data>
+</node>
+<node id="Campaign_EC02">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_EC02</data>
+  <data key="d4">Campaign_EC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W01">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W01</data>
+  <data key="d4">Funder_W01</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC01">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC01</data>
+  <data key="d4">SocialAccount_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC01">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC01</data>
+  <data key="d4">MediaOutlet_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="Proxy_WC01">
+  <data key="d2">Proxy</data>
+  <data key="d3">Proxy_WC01</data>
+  <data key="d4">Proxy_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_WC01">
+  <data key="d2">Report</data>
+  <data key="d3">Report_WC01</data>
+  <data key="d4">Report_WC01</data>
+  <data key="d5">False</data>
+</node>
+<node id="Funder_W02">
+  <data key="d2">Funder</data>
+  <data key="d3">Funder_W02</data>
+  <data key="d4">Funder_W02</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_WC02">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_WC02</data>
+  <data key="d4">SocialAccount_WC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_WC02">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_WC02</data>
+  <data key="d4">MediaOutlet_WC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="Campaign_WC02">
+  <data key="d2">Campaign</data>
+  <data key="d3">Campaign_WC02</data>
+  <data key="d4">Campaign_WC02</data>
+  <data key="d5">False</data>
+</node>
+<node id="MediaOutlet_Theta">
+  <data key="d2">MediaOutlet</data>
+  <data key="d3">MediaOutlet_Theta</data>
+  <data key="d4">MediaOutlet_Theta</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_Eta">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_Eta</data>
+  <data key="d4">SocialAccount_Eta</data>
+  <data key="d5">False</data>
+</node>
+<node id="SocialAccount_Iota">
+  <data key="d2">SocialAccount</data>
+  <data key="d3">SocialAccount_Iota</data>
+  <data key="d4">SocialAccount_Iota</data>
+  <data key="d5">False</data>
+</node>
+<node id="Report_Sigma">
+  <data key="d2">Report</data>
+  <data key="d3">Report_Sigma</data>
+  <data key="d4">Report_Sigma</data>
+  <data key="d5">False</data>
+</node>
+<node id="Event_Kappa">
+  <data key="d2">Event</data>
+  <data key="d3">Event_Kappa</data>
+  <data key="d4">Event_Kappa</data>
+  <data key="d5">False</data>
+</node>
+<edge source="Funder_01" target="Intermediary_Alpha" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_01 is listed as providing funding to Intermediary_Alpha during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_01" target="Intermediary_Delta" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_01 is listed as providing funding to Intermediary_Delta during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_Alpha" target="Proxy_X" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_Alpha is described as a partner of Proxy_X during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_Alpha" target="EmbeddedControl_01" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_Alpha and EmbeddedControl_01 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_X" target="Campaign_Y" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Proxy_X is listed as a host of Campaign_Y during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_X" target="EmbeddedControl_02" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Proxy_X and EmbeddedControl_02 co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_02" target="Intermediary_Beta" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_02 is listed as providing funding to Intermediary_Beta during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_Beta" target="Event_C" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_Beta is listed as a host of Event_C during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_Beta" target="Report_R" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Intermediary_Beta and Report_R co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_C" target="Proxy_Z" id="0">
+  <data key="d6">speaks_at</data>
+  <data key="d7">Synthetic record: a representative of Event_C is listed as speaking at Proxy_Z during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_Z" target="Report_Q" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Proxy_Z is listed as the publisher of Report_Q during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_03" target="Intermediary_Gamma" id="0">
+  <data key="d6">funds</data>
+  <data key="d7">Synthetic record: Funder_03 is listed as providing funding to Intermediary_Gamma during Phase_01.</data>
+  <data key="d8">4</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_Gamma" target="Proxy_W" id="0">
+  <data key="d6">partners_with</data>
+  <data key="d7">Synthetic record: Intermediary_Gamma is described as a partner of Proxy_W during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_W" target="Campaign_V" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: Proxy_W repeatedly amplified output attributed to Campaign_V during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_W" target="Campaign_Y" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Proxy_W and Campaign_Y shared the same abstract link during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Intermediary_Delta" target="Event_D" id="0">
+  <data key="d6">hosts</data>
+  <data key="d7">Synthetic record: Intermediary_Delta is listed as a host of Event_D during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_D" target="Report_R" id="0">
+  <data key="d6">publishes</data>
+  <data key="d7">Synthetic record: Event_D is listed as the publisher of Report_R during Phase_02.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">True</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_01" target="Event_Ind_01" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: IndependentControl_01 and Event_Ind_01 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_02" target="Report_Ind_02" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_02 and Report_Ind_02.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_03" target="SocialAccount_Ind_03" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_03 and SocialAccount_Ind_03.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Ind_03" target="MediaOutlet_Ind_03" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: SocialAccount_Ind_03 and MediaOutlet_Ind_03 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="IndependentControl_04" target="Campaign_Ind_04" id="0">
+  <data key="d6">no_known_link</data>
+  <data key="d7">Synthetic record: no documented association observed between IndependentControl_04 and Campaign_Ind_04.</data>
+  <data key="d8">0</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_01" target="Report_EC01" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: EmbeddedControl_01 and Report_EC01 co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="EmbeddedControl_02" target="Campaign_EC02" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: EmbeddedControl_02 and Campaign_EC02 shared the same abstract link during Phase_03.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">True</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W01" target="SocialAccount_WC01" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Funder_W01 and SocialAccount_WC01 co-occurred in one abstract index during Phase_01.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC01" target="MediaOutlet_WC01" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: SocialAccount_WC01 and MediaOutlet_WC01 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC01" target="Proxy_WC01" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC01 repeatedly amplified output attributed to Proxy_WC01 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Proxy_WC01" target="Report_WC01" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: Proxy_WC01 used wording closely similar to Report_WC01 during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Funder_W02" target="SocialAccount_WC02" id="0">
+  <data key="d6">shares_link</data>
+  <data key="d7">Synthetic record: Funder_W02 and SocialAccount_WC02 shared the same abstract link during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_WC02" target="MediaOutlet_WC02" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: SocialAccount_WC02 repeatedly amplified output attributed to MediaOutlet_WC02 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_WC02" target="Campaign_WC02" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: MediaOutlet_WC02 used wording closely similar to Campaign_WC02 during Phase_01.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="MediaOutlet_Theta" target="Report_Sigma" id="0">
+  <data key="d6">cites</data>
+  <data key="d7">Synthetic record: MediaOutlet_Theta cites Report_Sigma in an abstract document during Phase_01.</data>
+  <data key="d8">3</data>
+  <data key="d9">Phase_01</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Eta" target="MediaOutlet_Theta" id="0">
+  <data key="d6">amplifies</data>
+  <data key="d7">Synthetic record: SocialAccount_Eta repeatedly amplified output attributed to MediaOutlet_Theta during Phase_04.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Iota" target="SocialAccount_Eta" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: SocialAccount_Iota and SocialAccount_Eta co-occurred in one abstract index during Phase_03.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_03</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="SocialAccount_Iota" target="MediaOutlet_Theta" id="0">
+  <data key="d6">uses_similar_language</data>
+  <data key="d7">Synthetic record: SocialAccount_Iota used wording closely similar to MediaOutlet_Theta during Phase_02.</data>
+  <data key="d8">2</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_Kappa" target="Report_Sigma" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Event_Kappa and Report_Sigma co-occurred in one abstract index during Phase_02.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_02</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+<edge source="Event_Kappa" target="SocialAccount_Eta" id="0">
+  <data key="d6">co_occurs_with</data>
+  <data key="d7">Synthetic record: Event_Kappa and SocialAccount_Eta co-occurred in one abstract index during Phase_04.</data>
+  <data key="d8">1</data>
+  <data key="d9">Phase_04</data>
+  <data key="d10">False</data>
+  <data key="d11">True</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+</edge>
+</graph></graphml>

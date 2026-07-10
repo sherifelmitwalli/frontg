@@ -1,0 +1,3 @@
+chain_id,node_sequence,edge_types,evidence_grades,max_evidence_grade,expected_flag_status,rationale
+WC_01,Funder_W01 -> SocialAccount_WC01 -> MediaOutlet_WC01 -> Proxy_WC01 -> Report_WC01,co_occurs_with -> shares_link -> amplifies -> uses_similar_language,1 -> 2 -> 2 -> 2,2,do_not_flag,"weak signals only (every hop grade <= 2, no funding edge); must remain below the triage threshold"
+WC_02,Funder_W02 -> SocialAccount_WC02 -> MediaOutlet_WC02 -> Campaign_WC02,shares_link -> amplifies -> uses_similar_language,2 -> 2 -> 2,2,do_not_flag,"weak signals only (every hop grade <= 2, no funding edge); must remain below the triage threshold"

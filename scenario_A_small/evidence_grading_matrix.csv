@@ -1,0 +1,6 @@
+grade,label,description,example_edge_types,example_snippet,review_weight
+0,No link / negative control,"No known relationship, or an explicit negative-control non-link.",no_known_link,No documented association observed between the two synthetic entities.,0.0
+1,Weak co-occurrence only,Entities mentioned together once in a synthetic context with no further signal.,co_occurs_with,During Phase_01 the two synthetic entities were listed in the same abstract index.,0.2
+2,Repeated public co-occurrence or shared links,"Repeated synthetic co-occurrence, shared links, amplification, or similar language.","shares_link, uses_similar_language, amplifies",Across Phase_01 and Phase_02 the synthetic accounts repeatedly amplified the same abstract item.,0.45
+3,Documentary relationship,"Synthetic event participation, report authorship, partnership, or co-publication.","speaks_at, hosts, publishes, cites, partners_with",Intermediary_Alpha is recorded as a co-host of Event_Gamma alongside Proxy_Delta in Phase_02.,0.75
+4,Direct synthetic funding or formal organisational link,A direct synthetic funding relationship or a formal organisational link.,funds,Funder_01 is recorded as providing synthetic funding to Intermediary_Alpha in Phase_01.,1.0
