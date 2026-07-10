@@ -34,7 +34,11 @@ function SCORE_AND_AUDIT(G, weights, threshold, answer_keys):
     metrics.rq3 <- isolated and embedded-control specificity
     metrics.rq4 <- raw-threshold behaviour and descriptive score-band truth summary
     metrics.rq5 <- weak-chain behaviour, exact controlled-vocabulary score bounds,
-                   integer threshold sweep, weight perturbation, and replications
+                   integer threshold sweep, weight perturbation, and cross-seed
+                   consistency checks (planted structure fixed; only filler and
+                   noise placement vary with the seed)
+    metrics.active_noise <- candidate burden before/after connected active-network
+                   noise and retained high-priority active-noise false positives
 
     write machine-readable outputs, audit CSVs, Markdown report, HTML report,
     and deterministic figures

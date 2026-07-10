@@ -54,12 +54,24 @@ function BUILD_TOPOLOGY(spec):
         similar-language and amplification edges
     pad nodes and edges deterministically to the scenario size targets
 
+    # connected active-network noise challenge (medium and stress scenarios)
+    for a in 1..spec.n_active_*:
+        add labelled (is_active_noise = true) edges from funder-reachable
+            intermediaries to alternative terminals and cross-path proxies,
+            including weak signals and misleading documentary-grade edges;
+            these deliberately create alternative funder-to-terminal candidate
+            paths, and all resulting false positives are retained and reported
+
     return G and all answer keys
 ```
 
 **Key invariants.** Funders connect only along their seeded chains, the
-controlled false leads, the embedded-control attachments and the weak-signal
-chains, so candidate enumeration stays tractable at every scale, and every
-funder-originated structure has a known label. Noise lives in an isolated
-filler pool and never forges spurious funder-originated proxy paths. Every
-output is a synthetic indicator for expert human review only.
+controlled false leads, the embedded-control attachments, the weak-signal
+chains and the separately labelled connected active-noise edges, so candidate
+enumeration stays tractable at every scale, and every funder-originated
+structure has a known label. Unlabelled filler noise remains isolated and never
+forges spurious funder-originated proxy paths; separately labelled connected
+active noise (medium and stress scenarios) deliberately creates alternative
+funder-originated candidate paths for adverse challenge testing, and the
+resulting false positives are retained and reported rather than tuned away.
+Every output is a synthetic indicator for expert human review only.
