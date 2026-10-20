@@ -1,0 +1,54 @@
+{
+  "thresholds": {
+    "frontg_tuned": 61.7,
+    "mean_grade": 3.0,
+    "centrality": 0.0011341223,
+    "logreg": 0.2316054739,
+    "logreg_path": 0.247169244,
+    "gbm": 0.1976154746,
+    "gbm_elig": 0.2352552445
+  },
+  "seeds": {
+    "train": [
+      10000,
+      10099
+    ],
+    "valid": [
+      15000,
+      15049
+    ],
+    "test": [
+      20000,
+      20099
+    ],
+    "oracle_train": [
+      30000,
+      30099
+    ],
+    "oracle_valid": [
+      35000,
+      35049
+    ]
+  },
+  "n_train_candidates": 8575,
+  "n_valid_candidates": 4272,
+  "train_prevalence": 0.1399,
+  "learned_features": [
+    "has_funding_edge",
+    "mean_grade",
+    "min_grade",
+    "n_evidence_types",
+    "temporal_clustering",
+    "semantic_similarity",
+    "amplification",
+    "cooccurrence",
+    "path_length",
+    "interior_mean_degree",
+    "interior_max_degree",
+    "interior_mean_pagerank",
+    "terminal_in_degree",
+    "n_parallel_edges",
+    "max_grade"
+  ],
+  "quick": false
+}

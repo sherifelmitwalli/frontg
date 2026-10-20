@@ -200,7 +200,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0005 (true_negative)
+### CAND_0006 (true_negative)
 
 - **Node sequence:** Funder_02 -> Intermediary_Beta -> Report_R
 

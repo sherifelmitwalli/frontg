@@ -745,7 +745,8 @@ def enumerate_candidate_paths(G: nx.MultiDiGraph, scorer: ReviewPriorityScorer,
     embedded_nodes = embedded_nodes or set()
     simpleG = nx.DiGraph()
     simpleG.add_nodes_from(G.nodes(data=True))
-    for s, t in set((u, v) for u, v, _ in G.edges(keys=True)):
+    # sorted: set iteration order varies with Python's per-process hash seed
+    for s, t in sorted(set((u, v) for u, v, _ in G.edges(keys=True))):
         simpleG.add_edge(s, t)
     funders = [n for n, d in G.nodes(data=True) if d["node_class"] == "Funder"]
     terminals = set(n for n, d in G.nodes(data=True) if d["node_class"] in TERMINAL_CLASSES)
@@ -798,7 +799,7 @@ def enumerate_candidate_paths(G: nx.MultiDiGraph, scorer: ReviewPriorityScorer,
             break
     df = pd.DataFrame(rows)
     if not df.empty:
-        order = df["review_priority_score"].sort_values(ascending=False).index
+        order = df["review_priority_score"].sort_values(ascending=False, kind="mergesort").index  # stable: ties keep enumeration order
         df = df.loc[order].reset_index(drop=True)
         feats_list = [feats_list[i] for i in order]
     df.attrs["candidate_cap"] = max_candidates
@@ -1013,7 +1014,8 @@ def compute_scenario(spec: ScenarioSpec, robustness: bool = True) -> ScenarioRes
 
 def write_core_outputs(res: ScenarioResult, out: Path) -> None:
     out.mkdir(parents=True, exist_ok=True)
-    nx.write_graphml(res.G, out / "synthetic_network.graphml")
+    # pure-Python writer: identical output whether or not lxml is installed
+    nx.write_graphml_xml(res.G, out / "synthetic_network.graphml")
     try:
         data = nx.node_link_data(res.G, edges="links")
     except TypeError:
@@ -1063,10 +1065,11 @@ def run_scenario(spec: ScenarioSpec, base_dir: Path, make_figures: bool = True) 
     path_audit.to_csv(out / "path_recovery_audit.csv", index=False)
     triage_audit.to_csv(out / "triage_score_audit.csv", index=False)
     er_audit.to_csv(out / "entity_resolution_audit.csv", index=False)
-    REP.write_tracking_report(res, path_audit, triage_audit, er_audit, nc_audit, out)
     if make_figures:
         import frontg_visualisation as VIS
         VIS.generate_all_figures(res, path_audit, out)
+    # report after figures, so its figure list reflects this run's outputs
+    REP.write_tracking_report(res, path_audit, triage_audit, er_audit, nc_audit, out)
     print(f"[{spec.key}] nodes={res.metrics['network_summary']['n_nodes']} "
           f"edges={res.metrics['network_summary']['n_edges']} "
           f"recall={res.metrics['rq1_path_recovery']['path_recovery_recall']} "

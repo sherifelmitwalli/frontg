@@ -1,0 +1,7 @@
+benchmark,train,test,prevalence,model,auprc,precision_at_0.5,recall_at_0.5,frontg_precision,frontg_recall,feature_ambiguity_rate
+A (fixed templates),medium,stress,0.2167,gradient boosting (path features),1.0,1.0,1.0,0.3881,1.0,0.0
+A (fixed templates),stress,medium,0.2222,gradient boosting (path features),1.0,1.0,1.0,0.4138,1.0,0.0
+A (fixed templates),medium,small,0.4,gradient boosting (path features),1.0,1.0,1.0,0.8,1.0,0.0
+A (fixed templates),stress,small,0.4,gradient boosting (path features),1.0,1.0,1.0,0.8,1.0,0.0
+"B (latent truth, base regime)",base train instances,base test instances (pooled),0.1421,gradient boosting (path features),0.461,0.5764,0.1792,0.2549,0.6517,0.6987
+"B (latent truth, base regime)",base train instances,base test instances (pooled),0.1421,gradient boosting (topology-only leakage probe),0.215,,,,,0.3918

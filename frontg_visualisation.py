@@ -70,6 +70,21 @@ def _simple(G):
     return s
 
 
+def _ordered_subgraph(s, nodes):
+    """Induced subgraph with a deterministic node/edge order (networkx subgraph
+    views iterate a Python set, whose order varies with the per-process hash seed)."""
+    keep = list(dict.fromkeys(nodes))
+    keep_set = set(keep)
+    sub = s.__class__()
+    for n in keep:
+        sub.add_node(n, **s.nodes[n])
+    for u in keep:
+        for v, d in s.adj[u].items():
+            if v in keep_set:
+                sub.add_edge(u, v, **d)
+    return sub
+
+
 def _layout(s, seed):
     n = s.number_of_nodes()
     k = 1.6 / math.sqrt(max(n, 1))
@@ -247,9 +262,9 @@ def fig_paths(res, out: Path):
                            edgecolors="#cccccc", linewidths=0.4)
     nx.draw_networkx_edges(s, pos, edgelist=gt_edges, ax=ax, edge_color="#b2182b", width=2.6,
                            arrows=True, arrowsize=13, connectionstyle="arc3,rad=0.04")
-    _draw_nodes(ax, s, pos, nodelist=list(gt_nodes), size=hl_size, edgecolor="#b2182b", lw=1.5)
+    _draw_nodes(ax, s, pos, nodelist=sorted(gt_nodes), size=hl_size, edgecolor="#b2182b", lw=1.5)
     if len(gt_nodes) <= 80:
-        nx.draw_networkx_labels(s, pos, ax=ax, labels={x: x for x in gt_nodes}, font_size=6.8 if PUBLICATION_MODE else 5.6)
+        nx.draw_networkx_labels(s, pos, ax=ax, labels={x: x for x in sorted(gt_nodes)}, font_size=6.8 if PUBLICATION_MODE else 5.6)
     handles = [Line2D([0], [0], marker=NODE_SHAPES[c], color="w", markerfacecolor=NODE_COLORS[c],
                markeredgecolor="#b2182b", markersize=9, label=c) for c in _present_classes(s, gt_nodes)]
     handles.append(Line2D([0], [0], color="#b2182b", lw=2.6, label="seeded proxy-path edge"))
@@ -288,7 +303,7 @@ def fig_negative_controls(res, out: Path):
         nodes = [n for n in dict.fromkeys(nodes) if n]
         if not nodes:
             ax.axis("off"); ax.set_title(title, fontsize=10); return
-        sub = _simple(G).subgraph(nodes).copy()
+        sub = _ordered_subgraph(_simple(G), nodes)
         pos = nx.spring_layout(sub, seed=res.spec.seed,
                                k=2.2 / math.sqrt(max(len(nodes), 1)),
                                iterations=120 if len(nodes) <= 120 else 60)
@@ -303,7 +318,7 @@ def fig_negative_controls(res, out: Path):
             first = str(r["nodes"]).split(";")[0].strip()
             if first in pos:
                 x, y = pos[first]
-                ax.annotate("%s | %.1f | %s" % (r["control_id"], r["review_priority_score"],
+                ax.annotate("%s | %.4g | %s" % (r["control_id"], r["review_priority_score"],
                             "NOT flagged" if not r["flagged"] else "FLAGGED"),
                             (x, y), textcoords="offset points", xytext=(0, 14), ha="center",
                             fontsize=5.6, color="#1f78b4",
@@ -312,10 +327,11 @@ def fig_negative_controls(res, out: Path):
         ax.axis("off")
 
     r3 = res.metrics["rq3_negative_controls"]
+    max_iso_score = float(iso["review_priority_score"].max()) if len(iso) else 0.0
     _panel(axL, iso, False,
            "(a) Isolated controls (n=%d): disconnected from the seeded structure;\n"
-           "specificity %s, max score %s" % (len(iso), r3["negative_control_specificity"],
-                                             r3["max_control_score"]))
+           "specificity %s, max isolated score %.4g" % (len(iso), r3["negative_control_specificity"],
+                                                        max_iso_score))
     _panel(axR, emb, True,
            "(b) Embedded controls (n=%d): weakly attached, funder-reachable;\n"
            "%d candidate paths through them, none flagged (max score %s)"

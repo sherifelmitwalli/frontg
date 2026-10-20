@@ -19,8 +19,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies (version floors)
         run: python -m pip install -r requirements.txt
-      - name: Run synthetic-harness self-tests
+      - name: Run synthetic-harness self-tests (Benchmark A)
         run: python test_synthetic_harness.py
+      - name: Run Benchmark-B self-tests
+        run: python test_benchmark_B.py
 
   test-locked:
     # Reproducibility job: exact archived environment
@@ -33,4 +35,6 @@ jobs:
       - name: Install pinned dependencies
         run: python -m pip install -r requirements-lock.txt
       - name: Run synthetic-harness self-tests (locked env)
-        run: python test_synthetic_harness.py
+        run: |
+          python test_synthetic_harness.py
+          python test_benchmark_B.py

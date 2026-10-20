@@ -167,6 +167,11 @@ def attainable_score_bounds(weights: ScoreWeights, threshold: float) -> pd.DataF
         ("funding_with_grade1_floor", "Funding edge present; weakest hop grade 1", lambda et, gr: "funds" in et and min(gr) == 1),
         ("funding_with_grade2_floor", "Funding edge present; weakest hop grade 2", lambda et, gr: "funds" in et and min(gr) == 2),
         ("fully_documentary_min_grade3", "Funding edge present; every hop grade >= 3", lambda et, gr: "funds" in et and min(gr) >= 3),
+        # Families added in v1.1: any path the eligibility rule excludes. Their gated
+        # maxima show whether the eligibility rule binds at the published weights.
+        ("no_funding_any_grade", "No funding edge; any hop grades", lambda et, gr: "funds" not in et),
+        ("ineligible_any", "Fails eligibility (no funding edge OR weakest hop grade <= 1)",
+         lambda et, gr: "funds" not in et or min(gr) <= 1),
     ]
     import itertools as _it
     edge_types = tuple(EDGE_TYPE_GRADE)

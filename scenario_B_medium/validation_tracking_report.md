@@ -43,17 +43,17 @@ _Synthetic validation harness (seed = 142)._
 | ID | Node sequence | Score |
 | --- | --- | --- |
 | GT_PATH_000 | Funder_000 -> Intermediary_000 -> Proxy_000 -> Campaign_000 | 67.80 |
+| GT_PATH_003 | Funder_003 -> Intermediary_003 -> Event_003 -> Report_003 | 67.80 |
 | GT_PATH_004 | Funder_004 -> Intermediary_004 -> Proxy_004 -> Campaign_004 | 67.80 |
 | GT_PATH_007 | Funder_007 -> Intermediary_007 -> Event_007 -> Report_007 | 67.80 |
 | GT_PATH_008 | Funder_008 -> Intermediary_008 -> Proxy_008 -> Campaign_008 | 67.80 |
-| GT_PATH_003 | Funder_003 -> Intermediary_003 -> Event_003 -> Report_003 | 67.80 |
 | GT_PATH_011 | Funder_011 -> Intermediary_011 -> Event_011 -> Report_011 | 67.80 |
+| GT_PATH_001 | Funder_001 -> Intermediary_001 -> Event_001 -> Proxy_001 -> Report_001 | 65.78 |
 | GT_PATH_005 | Funder_005 -> Intermediary_005 -> Event_005 -> Proxy_005 -> Report_005 | 65.78 |
 | GT_PATH_009 | Funder_009 -> Intermediary_009 -> Event_009 -> Proxy_009 -> Report_009 | 65.78 |
-| GT_PATH_001 | Funder_001 -> Intermediary_001 -> Event_001 -> Proxy_001 -> Report_001 | 65.78 |
 | GT_PATH_002 | Funder_002 -> Intermediary_002 -> Proxy_002 -> Campaign_002 | 63.80 |
-| GT_PATH_010 | Funder_010 -> Intermediary_010 -> Proxy_010 -> Campaign_010 | 63.80 |
 | GT_PATH_006 | Funder_006 -> Intermediary_006 -> Proxy_006 -> Campaign_006 | 63.80 |
+| GT_PATH_010 | Funder_010 -> Intermediary_010 -> Proxy_010 -> Campaign_010 | 63.80 |
 
 Path-recovery recall **1.0**; precision **0.4138**.
 
@@ -66,22 +66,22 @@ None - all seeded proxy paths were recovered.
 | Candidate ID | Node sequence | Score |
 | --- | --- | --- |
 | CAND_0013 | Funder_001 -> Intermediary_001 -> Campaign_L007 | 69.45 |
-| CAND_0018 | Funder_002 -> Intermediary_002 -> Campaign_WC02 | 66.45 |
-| CAND_0025 | Funder_003 -> Intermediary_003 -> Campaign_WC04 | 66.45 |
-| CAND_0004 | Funder_000 -> Intermediary_000 -> Campaign_L005 | 66.45 |
-| CAND_0014 | Funder_001 -> Intermediary_001 -> Campaign_EC06 | 64.20 |
-| CAND_0016 | Funder_001 -> Intermediary_001 -> Campaign_008 | 61.70 |
+| CAND_0005 | Funder_000 -> Intermediary_000 -> Campaign_L005 | 66.45 |
+| CAND_0021 | Funder_002 -> Intermediary_002 -> Campaign_WC02 | 66.45 |
+| CAND_0027 | Funder_003 -> Intermediary_003 -> Campaign_WC04 | 66.45 |
+| CAND_0012 | Funder_001 -> Intermediary_001 -> Campaign_EC06 | 64.20 |
+| CAND_0010 | Funder_001 -> Intermediary_001 -> Campaign_008 | 61.70 |
+| CAND_0024 | Funder_002 -> Intermediary_002 -> Proxy_004 -> Campaign_004 | 61.30 |
+| CAND_0030 | Funder_003 -> Intermediary_003 -> Proxy_005 -> Report_005 | 61.30 |
 | CAND_0042 | Funder_L001 -> Intermediary_L001 -> Proxy_L001 -> Campaign_L001 | 61.30 |
-| CAND_0028 | Funder_003 -> Intermediary_003 -> Proxy_005 -> Report_005 | 61.30 |
-| CAND_0019 | Funder_002 -> Intermediary_002 -> Proxy_004 -> Campaign_004 | 61.30 |
 | CAND_0044 | Funder_L003 -> Intermediary_L003 -> Proxy_L003 -> Campaign_L003 | 61.30 |
-| CAND_0048 | Funder_L007 -> Intermediary_L007 -> Proxy_L007 -> Campaign_L007 | 61.30 |
 | CAND_0046 | Funder_L005 -> Intermediary_L005 -> Proxy_L005 -> Campaign_L005 | 61.30 |
-| CAND_0003 | Funder_000 -> Intermediary_000 -> Campaign_EC04 | 61.20 |
-| CAND_0022 | Funder_002 -> Intermediary_002 -> Campaign_L001 | 61.20 |
-| CAND_0008 | Funder_000 -> Intermediary_000 -> Campaign_010 | 60.70 |
-| CAND_0012 | Funder_001 -> Intermediary_001 -> Campaign_EC02 | 60.70 |
-| CAND_0024 | Funder_002 -> Intermediary_002 -> Campaign_EC04 | 60.70 |
+| CAND_0048 | Funder_L007 -> Intermediary_L007 -> Proxy_L007 -> Campaign_L007 | 61.30 |
+| CAND_0004 | Funder_000 -> Intermediary_000 -> Campaign_EC04 | 61.20 |
+| CAND_0020 | Funder_002 -> Intermediary_002 -> Campaign_L001 | 61.20 |
+| CAND_0003 | Funder_000 -> Intermediary_000 -> Campaign_010 | 60.70 |
+| CAND_0011 | Funder_001 -> Intermediary_001 -> Campaign_EC02 | 60.70 |
+| CAND_0019 | Funder_002 -> Intermediary_002 -> Campaign_EC04 | 60.70 |
 
 These are passed to a human reviewer as possible leads only. 13 contain a weak (grade <= 2) hop that inspection may set aside; 4 consist entirely of documentary-grade (>= 3) hops and are not separable from true pathways on grades alone, so they require full manual verification.
 
@@ -179,6 +179,26 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
 
+### GT_PATH_003 (true_positive)
+
+- **Node sequence:** Funder_003 -> Intermediary_003 -> Event_003 -> Report_003
+
+- **Edge sequence:** funds -> hosts -> publishes
+
+- **Evidence grades:** 4 -> 3 -> 3
+
+- **Edge provenance:** ground-truth -> ground-truth -> ground-truth
+
+- **Evidence snippets:** Synthetic record: Funder_003 is listed as providing funding to Intermediary_003 during Phase_01. || Synthetic record: Intermediary_003 is listed as a host of Event_003 during Phase_01. || Synthetic record: Event_003 is listed as the publisher of Report_003 during Phase_02.
+
+- **Review-priority score:** 67.8 (threshold 60.0) -> FLAGGED
+
+- **Ground-truth label:** seeded proxy path
+
+- **Why:** HIGH-PRIORITY REVIEW (raw score 67.80 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.
+
+- **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
+
 ### GT_PATH_004 (true_positive)
 
 - **Node sequence:** Funder_004 -> Intermediary_004 -> Proxy_004 -> Campaign_004
@@ -239,26 +259,6 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
 
-### GT_PATH_003 (true_positive)
-
-- **Node sequence:** Funder_003 -> Intermediary_003 -> Event_003 -> Report_003
-
-- **Edge sequence:** funds -> hosts -> publishes
-
-- **Evidence grades:** 4 -> 3 -> 3
-
-- **Edge provenance:** ground-truth -> ground-truth -> ground-truth
-
-- **Evidence snippets:** Synthetic record: Funder_003 is listed as providing funding to Intermediary_003 during Phase_01. || Synthetic record: Intermediary_003 is listed as a host of Event_003 during Phase_01. || Synthetic record: Event_003 is listed as the publisher of Report_003 during Phase_02.
-
-- **Review-priority score:** 67.8 (threshold 60.0) -> FLAGGED
-
-- **Ground-truth label:** seeded proxy path
-
-- **Why:** HIGH-PRIORITY REVIEW (raw score 67.80 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.
-
-- **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
-
 ### GT_PATH_011 (true_positive)
 
 - **Node sequence:** Funder_011 -> Intermediary_011 -> Event_011 -> Report_011
@@ -276,6 +276,26 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 - **Ground-truth label:** seeded proxy path
 
 - **Why:** HIGH-PRIORITY REVIEW (raw score 67.80 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.33; documentary continuity maintained across all hops.
+
+- **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
+
+### GT_PATH_001 (true_positive)
+
+- **Node sequence:** Funder_001 -> Intermediary_001 -> Event_001 -> Proxy_001 -> Report_001
+
+- **Edge sequence:** funds -> hosts -> speaks_at -> publishes
+
+- **Evidence grades:** 4 -> 3 -> 3 -> 3
+
+- **Edge provenance:** ground-truth -> ground-truth -> ground-truth -> ground-truth
+
+- **Evidence snippets:** Synthetic record: Funder_001 is listed as providing funding to Intermediary_001 during Phase_01. || Synthetic record: Intermediary_001 is listed as a host of Event_001 during Phase_01. || Synthetic record: a representative of Event_001 is listed as speaking at Proxy_001 during Phase_02. || Synthetic record: Proxy_001 is listed as the publisher of Report_001 during Phase_02.
+
+- **Review-priority score:** 65.78 (threshold 60.0) -> FLAGGED
+
+- **Ground-truth label:** seeded proxy path
+
+- **Why:** HIGH-PRIORITY REVIEW (raw score 65.78 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.25; documentary continuity maintained across all hops.
 
 - **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
 
@@ -319,26 +339,6 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
 
-### GT_PATH_001 (true_positive)
-
-- **Node sequence:** Funder_001 -> Intermediary_001 -> Event_001 -> Proxy_001 -> Report_001
-
-- **Edge sequence:** funds -> hosts -> speaks_at -> publishes
-
-- **Evidence grades:** 4 -> 3 -> 3 -> 3
-
-- **Edge provenance:** ground-truth -> ground-truth -> ground-truth -> ground-truth
-
-- **Evidence snippets:** Synthetic record: Funder_001 is listed as providing funding to Intermediary_001 during Phase_01. || Synthetic record: Intermediary_001 is listed as a host of Event_001 during Phase_01. || Synthetic record: a representative of Event_001 is listed as speaking at Proxy_001 during Phase_02. || Synthetic record: Proxy_001 is listed as the publisher of Report_001 during Phase_02.
-
-- **Review-priority score:** 65.78 (threshold 60.0) -> FLAGGED
-
-- **Ground-truth label:** seeded proxy path
-
-- **Why:** HIGH-PRIORITY REVIEW (raw score 65.78 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.25; documentary continuity maintained across all hops.
-
-- **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
-
 ### GT_PATH_002 (true_positive)
 
 - **Node sequence:** Funder_002 -> Intermediary_002 -> Proxy_002 -> Campaign_002
@@ -350,26 +350,6 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 - **Edge provenance:** ground-truth -> ground-truth -> ground-truth
 
 - **Evidence snippets:** Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01. || Synthetic record: Intermediary_002 is described as a partner of Proxy_002 during Phase_01. || Synthetic record: Proxy_002 repeatedly amplified output attributed to Campaign_002 during Phase_02.
-
-- **Review-priority score:** 63.8 (threshold 60.0) -> FLAGGED
-
-- **Ground-truth label:** seeded proxy path
-
-- **Why:** HIGH-PRIORITY REVIEW (raw score 63.80 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.
-
-- **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
-
-### GT_PATH_010 (true_positive)
-
-- **Node sequence:** Funder_010 -> Intermediary_010 -> Proxy_010 -> Campaign_010
-
-- **Edge sequence:** funds -> partners_with -> amplifies
-
-- **Evidence grades:** 4 -> 3 -> 2
-
-- **Edge provenance:** ground-truth -> ground-truth -> ground-truth
-
-- **Evidence snippets:** Synthetic record: Funder_010 is listed as providing funding to Intermediary_010 during Phase_01. || Synthetic record: Intermediary_010 is described as a partner of Proxy_010 during Phase_01. || Synthetic record: Proxy_010 repeatedly amplified output attributed to Campaign_010 during Phase_02.
 
 - **Review-priority score:** 63.8 (threshold 60.0) -> FLAGGED
 
@@ -399,6 +379,26 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
 
+### GT_PATH_010 (true_positive)
+
+- **Node sequence:** Funder_010 -> Intermediary_010 -> Proxy_010 -> Campaign_010
+
+- **Edge sequence:** funds -> partners_with -> amplifies
+
+- **Evidence grades:** 4 -> 3 -> 2
+
+- **Edge provenance:** ground-truth -> ground-truth -> ground-truth
+
+- **Evidence snippets:** Synthetic record: Funder_010 is listed as providing funding to Intermediary_010 during Phase_01. || Synthetic record: Intermediary_010 is described as a partner of Proxy_010 during Phase_01. || Synthetic record: Proxy_010 repeatedly amplified output attributed to Campaign_010 during Phase_02.
+
+- **Review-priority score:** 63.8 (threshold 60.0) -> FLAGGED
+
+- **Ground-truth label:** seeded proxy path
+
+- **Why:** HIGH-PRIORITY REVIEW (raw score 63.80 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.
+
+- **Recommended action:** Prioritise for expert review: inspect the underlying synthetic records and confirm each link independently before drawing any inference.
+
 ### CAND_0013 (false_positive)
 
 - **Node sequence:** Funder_001 -> Intermediary_001 -> Campaign_L007
@@ -419,47 +419,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.
 
-### CAND_0018 (false_positive)
-
-- **Node sequence:** Funder_002 -> Intermediary_002 -> Campaign_WC02
-
-- **Edge sequence:** funds -> partners_with
-
-- **Evidence grades:** 4 -> 3
-
-- **Edge provenance:** ground-truth -> distractor
-
-- **Evidence snippets:** Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01. || Synthetic record: Intermediary_002 is described as a partner of Campaign_WC02 during Phase_02.
-
-- **Review-priority score:** 66.45 (threshold 60.0) -> FLAGGED
-
-- **Ground-truth label:** not seeded
-
-- **Why:** HIGH-PRIORITY REVIEW (raw score 66.45 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.
-
-- **Recommended action:** Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.
-
-### CAND_0025 (false_positive)
-
-- **Node sequence:** Funder_003 -> Intermediary_003 -> Campaign_WC04
-
-- **Edge sequence:** funds -> partners_with
-
-- **Evidence grades:** 4 -> 3
-
-- **Edge provenance:** ground-truth -> distractor
-
-- **Evidence snippets:** Synthetic record: Funder_003 is listed as providing funding to Intermediary_003 during Phase_01. || Synthetic record: Intermediary_003 is described as a partner of Campaign_WC04 during Phase_03.
-
-- **Review-priority score:** 66.45 (threshold 60.0) -> FLAGGED
-
-- **Ground-truth label:** not seeded
-
-- **Why:** HIGH-PRIORITY REVIEW (raw score 66.45 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.
-
-- **Recommended action:** Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.
-
-### CAND_0004 (false_positive)
+### CAND_0005 (false_positive)
 
 - **Node sequence:** Funder_000 -> Intermediary_000 -> Campaign_L005
 
@@ -479,7 +439,47 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.
 
-### CAND_0014 (false_positive)
+### CAND_0021 (false_positive)
+
+- **Node sequence:** Funder_002 -> Intermediary_002 -> Campaign_WC02
+
+- **Edge sequence:** funds -> partners_with
+
+- **Evidence grades:** 4 -> 3
+
+- **Edge provenance:** ground-truth -> distractor
+
+- **Evidence snippets:** Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01. || Synthetic record: Intermediary_002 is described as a partner of Campaign_WC02 during Phase_02.
+
+- **Review-priority score:** 66.45 (threshold 60.0) -> FLAGGED
+
+- **Ground-truth label:** not seeded
+
+- **Why:** HIGH-PRIORITY REVIEW (raw score 66.45 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.
+
+- **Recommended action:** Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.
+
+### CAND_0027 (false_positive)
+
+- **Node sequence:** Funder_003 -> Intermediary_003 -> Campaign_WC04
+
+- **Edge sequence:** funds -> partners_with
+
+- **Evidence grades:** 4 -> 3
+
+- **Edge provenance:** ground-truth -> distractor
+
+- **Evidence snippets:** Synthetic record: Funder_003 is listed as providing funding to Intermediary_003 during Phase_01. || Synthetic record: Intermediary_003 is described as a partner of Campaign_WC04 during Phase_03.
+
+- **Review-priority score:** 66.45 (threshold 60.0) -> FLAGGED
+
+- **Ground-truth label:** not seeded
+
+- **Why:** HIGH-PRIORITY REVIEW (raw score 66.45 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 3, mean grade 3.50; documentary continuity maintained across all hops.
+
+- **Recommended action:** Queue for expert review; every hop carries documentary-grade evidence, so this false lead is not separable from a true pathway on grades alone and requires full manual verification of each underlying record.
+
+### CAND_0012 (false_positive)
 
 - **Node sequence:** Funder_001 -> Intermediary_001 -> Campaign_EC06
 
@@ -499,7 +499,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0016 (false_positive)
+### CAND_0010 (false_positive)
 
 - **Node sequence:** Funder_001 -> Intermediary_001 -> Campaign_008
 
@@ -519,17 +519,17 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0042 (false_positive)
+### CAND_0024 (false_positive)
 
-- **Node sequence:** Funder_L001 -> Intermediary_L001 -> Proxy_L001 -> Campaign_L001
+- **Node sequence:** Funder_002 -> Intermediary_002 -> Proxy_004 -> Campaign_004
 
-- **Edge sequence:** funds -> partners_with -> shares_link
+- **Edge sequence:** funds -> shares_link -> hosts
 
-- **Evidence grades:** 4 -> 3 -> 2
+- **Evidence grades:** 4 -> 2 -> 3
 
-- **Edge provenance:** distractor -> distractor -> distractor
+- **Edge provenance:** ground-truth -> distractor -> ground-truth
 
-- **Evidence snippets:** Synthetic record: Funder_L001 is listed as providing funding to Intermediary_L001 during Phase_01. || Synthetic record: Intermediary_L001 is described as a partner of Proxy_L001 during Phase_01. || Synthetic record: Proxy_L001 and Campaign_L001 shared the same abstract link during Phase_02.
+- **Evidence snippets:** Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01. || Synthetic record: Intermediary_002 and Proxy_004 shared the same abstract link during Phase_01. || Synthetic record: Proxy_004 is listed as a host of Campaign_004 during Phase_02.
 
 - **Review-priority score:** 61.3 (threshold 60.0) -> FLAGGED
 
@@ -539,7 +539,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0028 (false_positive)
+### CAND_0030 (false_positive)
 
 - **Node sequence:** Funder_003 -> Intermediary_003 -> Proxy_005 -> Report_005
 
@@ -559,17 +559,17 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0019 (false_positive)
+### CAND_0042 (false_positive)
 
-- **Node sequence:** Funder_002 -> Intermediary_002 -> Proxy_004 -> Campaign_004
+- **Node sequence:** Funder_L001 -> Intermediary_L001 -> Proxy_L001 -> Campaign_L001
 
-- **Edge sequence:** funds -> shares_link -> hosts
+- **Edge sequence:** funds -> partners_with -> shares_link
 
-- **Evidence grades:** 4 -> 2 -> 3
+- **Evidence grades:** 4 -> 3 -> 2
 
-- **Edge provenance:** ground-truth -> distractor -> ground-truth
+- **Edge provenance:** distractor -> distractor -> distractor
 
-- **Evidence snippets:** Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01. || Synthetic record: Intermediary_002 and Proxy_004 shared the same abstract link during Phase_01. || Synthetic record: Proxy_004 is listed as a host of Campaign_004 during Phase_02.
+- **Evidence snippets:** Synthetic record: Funder_L001 is listed as providing funding to Intermediary_L001 during Phase_01. || Synthetic record: Intermediary_L001 is described as a partner of Proxy_L001 during Phase_01. || Synthetic record: Proxy_L001 and Campaign_L001 shared the same abstract link during Phase_02.
 
 - **Review-priority score:** 61.3 (threshold 60.0) -> FLAGGED
 
@@ -599,26 +599,6 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0048 (false_positive)
-
-- **Node sequence:** Funder_L007 -> Intermediary_L007 -> Proxy_L007 -> Campaign_L007
-
-- **Edge sequence:** funds -> partners_with -> shares_link
-
-- **Evidence grades:** 4 -> 3 -> 2
-
-- **Edge provenance:** distractor -> distractor -> distractor
-
-- **Evidence snippets:** Synthetic record: Funder_L007 is listed as providing funding to Intermediary_L007 during Phase_01. || Synthetic record: Intermediary_L007 is described as a partner of Proxy_L007 during Phase_01. || Synthetic record: Proxy_L007 and Campaign_L007 shared the same abstract link during Phase_02.
-
-- **Review-priority score:** 61.3 (threshold 60.0) -> FLAGGED
-
-- **Ground-truth label:** not seeded
-
-- **Why:** HIGH-PRIORITY REVIEW (raw score 61.30 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.
-
-- **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
-
 ### CAND_0046 (false_positive)
 
 - **Node sequence:** Funder_L005 -> Intermediary_L005 -> Proxy_L005 -> Campaign_L005
@@ -639,7 +619,27 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0003 (false_positive)
+### CAND_0048 (false_positive)
+
+- **Node sequence:** Funder_L007 -> Intermediary_L007 -> Proxy_L007 -> Campaign_L007
+
+- **Edge sequence:** funds -> partners_with -> shares_link
+
+- **Evidence grades:** 4 -> 3 -> 2
+
+- **Edge provenance:** distractor -> distractor -> distractor
+
+- **Evidence snippets:** Synthetic record: Funder_L007 is listed as providing funding to Intermediary_L007 during Phase_01. || Synthetic record: Intermediary_L007 is described as a partner of Proxy_L007 during Phase_01. || Synthetic record: Proxy_L007 and Campaign_L007 shared the same abstract link during Phase_02.
+
+- **Review-priority score:** 61.3 (threshold 60.0) -> FLAGGED
+
+- **Ground-truth label:** not seeded
+
+- **Why:** HIGH-PRIORITY REVIEW (raw score 61.30 >= threshold 60.0 and eligible): includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.
+
+- **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
+
+### CAND_0004 (false_positive)
 
 - **Node sequence:** Funder_000 -> Intermediary_000 -> Campaign_EC04
 
@@ -659,7 +659,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0022 (false_positive)
+### CAND_0020 (false_positive)
 
 - **Node sequence:** Funder_002 -> Intermediary_002 -> Campaign_L001
 
@@ -679,7 +679,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0008 (false_positive)
+### CAND_0003 (false_positive)
 
 - **Node sequence:** Funder_000 -> Intermediary_000 -> Campaign_010
 
@@ -699,7 +699,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0012 (false_positive)
+### CAND_0011 (false_positive)
 
 - **Node sequence:** Funder_001 -> Intermediary_001 -> Campaign_EC02
 
@@ -719,7 +719,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0024 (false_positive)
+### CAND_0019 (false_positive)
 
 - **Node sequence:** Funder_002 -> Intermediary_002 -> Campaign_EC04
 
@@ -739,7 +739,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** Queue for expert review as a possible lead only; the weakest hop is low grade (grade 2), so it may be set aside on inspection of that hop.
 
-### CAND_0005 (true_negative)
+### CAND_0008 (true_negative)
 
 - **Node sequence:** Funder_000 -> Intermediary_000 -> Proxy_001 -> Report_001
 
@@ -759,7 +759,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0010 (true_negative)
+### CAND_0016 (true_negative)
 
 - **Node sequence:** Funder_001 -> Intermediary_001 -> Proxy_002 -> Campaign_002
 
@@ -776,26 +776,6 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 - **Ground-truth label:** not seeded
 
 - **Why:** not high priority: raw score 59.30 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 2.67; drops to a grade-2 shared-link/amplification hop.
-
-- **Recommended action:** No review action required; retain in the audit log for completeness.
-
-### CAND_0027 (true_negative)
-
-- **Node sequence:** Funder_003 -> Intermediary_003 -> Campaign_EC02
-
-- **Edge sequence:** funds -> shares_link
-
-- **Evidence grades:** 4 -> 2
-
-- **Edge provenance:** ground-truth -> distractor
-
-- **Evidence snippets:** Synthetic record: Funder_003 is listed as providing funding to Intermediary_003 during Phase_01. || Synthetic record: Intermediary_003 and Campaign_EC02 shared the same abstract link during Phase_03.
-
-- **Review-priority score:** 58.7 (threshold 60.0) -> not flagged
-
-- **Ground-truth label:** not seeded
-
-- **Why:** not high priority: raw score 58.70 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
@@ -819,7 +799,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0020 (true_negative)
+### CAND_0018 (true_negative)
 
 - **Node sequence:** Funder_002 -> Intermediary_002 -> Campaign_010
 
@@ -839,7 +819,27 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0029 (true_negative)
+### CAND_0026 (true_negative)
+
+- **Node sequence:** Funder_003 -> Intermediary_003 -> Campaign_EC02
+
+- **Edge sequence:** funds -> shares_link
+
+- **Evidence grades:** 4 -> 2
+
+- **Edge provenance:** ground-truth -> distractor
+
+- **Evidence snippets:** Synthetic record: Funder_003 is listed as providing funding to Intermediary_003 during Phase_01. || Synthetic record: Intermediary_003 and Campaign_EC02 shared the same abstract link during Phase_03.
+
+- **Review-priority score:** 58.7 (threshold 60.0) -> not flagged
+
+- **Ground-truth label:** not seeded
+
+- **Why:** not high priority: raw score 58.70 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 2, mean grade 3.00; drops to a grade-2 shared-link/amplification hop.
+
+- **Recommended action:** No review action required; retain in the audit log for completeness.
+
+### CAND_0025 (true_negative)
 
 - **Node sequence:** Funder_003 -> Intermediary_003 -> Campaign_008
 
@@ -859,7 +859,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0009 (true_negative)
+### CAND_0014 (true_negative)
 
 - **Node sequence:** Funder_001 -> Intermediary_001 -> EmbeddedControl_02 -> Campaign_EC02
 
@@ -879,7 +879,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0030 (true_negative)
+### CAND_0028 (true_negative)
 
 - **Node sequence:** Funder_003 -> Intermediary_003 -> EmbeddedControl_04 -> Campaign_EC04
 
@@ -899,7 +899,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0034 (true_negative)
+### CAND_0033 (true_negative)
 
 - **Node sequence:** Funder_005 -> Intermediary_005 -> EmbeddedControl_06 -> Campaign_EC06
 
@@ -919,47 +919,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0047 (true_negative)
-
-- **Node sequence:** Funder_L006 -> Intermediary_L006 -> Report_L006
-
-- **Edge sequence:** funds -> co_occurs_with
-
-- **Evidence grades:** 4 -> 1
-
-- **Edge provenance:** distractor -> distractor
-
-- **Evidence snippets:** Synthetic record: Funder_L006 is listed as providing funding to Intermediary_L006 during Phase_01. || Synthetic record: Intermediary_L006 and Report_L006 co-occurred in one abstract index during Phase_02.
-
-- **Review-priority score:** 50.95 (threshold 60.0) -> not flagged
-
-- **Ground-truth label:** not seeded
-
-- **Why:** not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.
-
-- **Recommended action:** No review action required; retain in the audit log for completeness.
-
-### CAND_0023 (true_negative)
-
-- **Node sequence:** Funder_002 -> Intermediary_002 -> Campaign_006
-
-- **Edge sequence:** funds -> co_occurs_with
-
-- **Evidence grades:** 4 -> 1
-
-- **Edge provenance:** ground-truth -> distractor
-
-- **Evidence snippets:** Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01. || Synthetic record: Intermediary_002 and Campaign_006 co-occurred in one abstract index during Phase_04.
-
-- **Review-priority score:** 50.95 (threshold 60.0) -> not flagged
-
-- **Ground-truth label:** not seeded
-
-- **Why:** not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.
-
-- **Recommended action:** No review action required; retain in the audit log for completeness.
-
-### CAND_0007 (true_negative)
+### CAND_0001 (true_negative)
 
 - **Node sequence:** Funder_000 -> Intermediary_000 -> Campaign_002
 
@@ -979,7 +939,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0015 (true_negative)
+### CAND_0009 (true_negative)
 
 - **Node sequence:** Funder_001 -> Intermediary_001 -> Campaign_004
 
@@ -999,17 +959,17 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0045 (true_negative)
+### CAND_0017 (true_negative)
 
-- **Node sequence:** Funder_L004 -> Intermediary_L004 -> Report_L004
+- **Node sequence:** Funder_002 -> Intermediary_002 -> Campaign_006
 
 - **Edge sequence:** funds -> co_occurs_with
 
 - **Evidence grades:** 4 -> 1
 
-- **Edge provenance:** distractor -> distractor
+- **Edge provenance:** ground-truth -> distractor
 
-- **Evidence snippets:** Synthetic record: Funder_L004 is listed as providing funding to Intermediary_L004 during Phase_01. || Synthetic record: Intermediary_L004 and Report_L004 co-occurred in one abstract index during Phase_02.
+- **Evidence snippets:** Synthetic record: Funder_002 is listed as providing funding to Intermediary_002 during Phase_01. || Synthetic record: Intermediary_002 and Campaign_006 co-occurred in one abstract index during Phase_04.
 
 - **Review-priority score:** 50.95 (threshold 60.0) -> not flagged
 
@@ -1059,7 +1019,47 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0001 (true_negative)
+### CAND_0045 (true_negative)
+
+- **Node sequence:** Funder_L004 -> Intermediary_L004 -> Report_L004
+
+- **Edge sequence:** funds -> co_occurs_with
+
+- **Evidence grades:** 4 -> 1
+
+- **Edge provenance:** distractor -> distractor
+
+- **Evidence snippets:** Synthetic record: Funder_L004 is listed as providing funding to Intermediary_L004 during Phase_01. || Synthetic record: Intermediary_L004 and Report_L004 co-occurred in one abstract index during Phase_02.
+
+- **Review-priority score:** 50.95 (threshold 60.0) -> not flagged
+
+- **Ground-truth label:** not seeded
+
+- **Why:** not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.
+
+- **Recommended action:** No review action required; retain in the audit log for completeness.
+
+### CAND_0047 (true_negative)
+
+- **Node sequence:** Funder_L006 -> Intermediary_L006 -> Report_L006
+
+- **Edge sequence:** funds -> co_occurs_with
+
+- **Evidence grades:** 4 -> 1
+
+- **Edge provenance:** distractor -> distractor
+
+- **Evidence snippets:** Synthetic record: Funder_L006 is listed as providing funding to Intermediary_L006 during Phase_01. || Synthetic record: Intermediary_L006 and Report_L006 co-occurred in one abstract index during Phase_02.
+
+- **Review-priority score:** 50.95 (threshold 60.0) -> not flagged
+
+- **Ground-truth label:** not seeded
+
+- **Why:** not high priority: raw score 50.95 is below threshold 60.0: includes a direct synthetic funding edge (grade 4); weakest hop grade 1, mean grade 2.50; drops to a grade-0/1 hop and is ineligible for high-priority review.
+
+- **Recommended action:** No review action required; retain in the audit log for completeness.
+
+### CAND_0006 (true_negative)
 
 - **Node sequence:** Funder_000 -> Intermediary_000 -> EmbeddedControl_01 -> Report_EC01
 
@@ -1079,7 +1079,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0021 (true_negative)
+### CAND_0022 (true_negative)
 
 - **Node sequence:** Funder_002 -> Intermediary_002 -> EmbeddedControl_03 -> Report_EC03
 
@@ -1099,7 +1099,7 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 
 - **Recommended action:** No review action required; retain in the audit log for completeness.
 
-### CAND_0032 (true_negative)
+### CAND_0031 (true_negative)
 
 - **Node sequence:** Funder_004 -> Intermediary_004 -> EmbeddedControl_05 -> Report_EC05
 
@@ -1256,6 +1256,8 @@ Each candidate path is shown with its edge provenance, evidence snippets, triage
 ![Figure 7. Descriptive score-band truth summary (planted-positive proportion by score bucket).](score_band_truth_summary.png)
 
 ![Figure 8. Robustness: threshold sweep and weight-perturbation stability.](robustness_threshold_sweep.png)
+
+![Figure 9. Connected active-network noise challenge.](active_noise_challenge.png)
 
 ## 10. Interpretation statement
 

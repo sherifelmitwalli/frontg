@@ -4,3 +4,5 @@ funding_with_grade0_floor,Funding edge present; weakest hop grade 0,51.7,56.4,no
 funding_with_grade1_floor,Funding edge present; weakest hop grade 1,57.7,62.28,co_occurs_with -> funds -> funds,1 -> 4 -> 4,co_occurs_with -> shares_link -> amplifies -> funds,1 -> 2 -> 2 -> 4,60.0,False,True,False,False
 funding_with_grade2_floor,Funding edge present; weakest hop grade 2,66.7,70.3,amplifies -> funds -> funds,2 -> 4 -> 4,uses_similar_language -> amplifies -> funds -> funds,2 -> 2 -> 4 -> 4,60.0,True,True,True,True
 fully_documentary_min_grade3,Funding edge present; every hop grade >= 3,75.6,75.6,funds -> funds,4 -> 4,funds -> funds,4 -> 4,60.0,True,True,True,True
+no_funding_any_grade,No funding edge; any hop grades,45.3,46.15,cites -> publishes -> speaks_at,3 -> 3 -> 3,uses_similar_language -> amplifies -> cites -> publishes,2 -> 2 -> 3 -> 3,60.0,False,False,False,False
+ineligible_any,Fails eligibility (no funding edge OR weakest hop grade <= 1),57.7,62.28,co_occurs_with -> funds -> funds,1 -> 4 -> 4,co_occurs_with -> shares_link -> amplifies -> funds,1 -> 2 -> 2 -> 4,60.0,False,True,False,False

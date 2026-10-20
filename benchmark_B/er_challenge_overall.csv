@@ -1,0 +1,8 @@
+rule,rule_label,auto_merge_threshold,refer_threshold,n_pairs,n_true_alias_pairs,n_distinct_pairs,false_merges,false_merge_rate,auto_merge_recall,potential_recall_with_referral,referral_rate,referred_distinct_pairs
+token_jaccard_v1,"Token Jaccard, published thresholds (FrontG v1)",0.6,0.4,1799,1050,749,150,0.2003,0.4381,0.619,0.2735,302
+token_jaccard_calibrated,"Token Jaccard, calibrated",0.600001,0.400001,1799,1050,749,0,0.0,0.4381,0.619,0.3569,452
+normalised_token,"Normalised token Jaccard, calibrated",0.600001,0.400001,1799,1050,749,0,0.0,0.6133,0.8,0.3602,452
+normalised_token_acronym,Normalised token Jaccard + acronym referral,0.600001,0.400001,1799,1050,749,0,0.0,0.6133,0.9429,0.5264,601
+char_trigram,"Character 3-gram Jaccard, calibrated",0.928572,0.728572,1799,1050,749,0,0.0,0.3324,0.7171,0.3213,174
+sequence_ratio,"Sequence ratio, calibrated",0.982457,0.782457,1799,1050,749,0,0.0,0.3276,0.7067,0.4175,353
+jaro_winkler,"Jaro-Winkler, calibrated",0.993104,0.793104,1799,1050,749,0,0.0,0.3276,0.7362,0.4919,456
